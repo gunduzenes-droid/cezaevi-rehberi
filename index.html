@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cezaevi Rehberi Destek</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+  /* Tek sütunlu resmî belge düzeni: dar metin kolonu, madde başlıkları kanun maddesi gibi numaralı */
+  :root {
+    --bg: #f5f6f8; --paper: #ffffff; --ink: #1e3550; --text: #22272e; --muted: #5b6878; --line: #dde2e8; --gold: #9a7742;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --sans: "Source Sans 3", -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    --bg: #0f1419; --paper: #171e26; --ink: #b7cce4; --text: #e3e7ec; --muted: #9aa7b6; --line: #2a333d; --gold: #d2b07a; color-scheme: dark } }
+  :root[data-theme="dark"] {
+    --bg: #0f1419; --paper: #171e26; --ink: #b7cce4; --text: #e3e7ec; --muted: #9aa7b6; --line: #2a333d; --gold: #d2b07a; color-scheme: dark }
+  body { background: var(--bg); color: var(--text); font: 17px/1.65 var(--sans);
+    padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 32px 56px; }
+  main { max-width: 680px; margin: 0 auto; background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: clamp(20px, 5vw, 44px); }
+  .eyebrow { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin: 0 0 6px; }
+  h1 { font-family: var(--serif); font-weight: 600; color: var(--ink); font-size: clamp(28px, 6vw, 38px); line-height: 1.15; margin: 0 0 8px; text-wrap: balance; }
+  .meta { color: var(--muted); font-size: 15px; margin: 0 0 28px; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px 18px; padding-bottom: 20px; border-bottom: 1px solid var(--line); margin-bottom: 8px; font-size: 15px; }
+  a { color: var(--ink); text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  h2 { font-family: var(--serif); font-weight: 600; color: var(--ink); font-size: 22px; margin: 34px 0 10px; text-wrap: balance; }
+  h3 { font-size: 17px; margin: 22px 0 4px; color: var(--ink); }
+  h3 .no { color: var(--gold); font-variant-numeric: tabular-nums; margin-right: 6px; }
+  p, li { max-width: 65ch; }
+  ul { padding-left: 20px; }
+  .note { border-left: 3px solid var(--gold); padding: 10px 14px; background: color-mix(in srgb, var(--gold) 8%, transparent); border-radius: 0 8px 8px 0; }
+  .mail { font-family: var(--sans); font-weight: 600; user-select: all; }
+  footer { margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+
+
+<main>
+  <p class="eyebrow">Cezaevi Rehberi · iOS</p>
+  <h1>Destek ve Gizlilik Politikası</h1>
+  <p class="meta">Hazırlayan: Av. Enes Gündüz · Son güncelleme: 24 Ekim 2026</p>
+  <nav aria-label="Bölümler">
+    <a href="#destek">Destek</a><a href="#gizlilik">Gizlilik Politikası</a><a href="#sorumluluk">Sorumluluk Reddi</a>
+  </nav>
+
+  <section id="destek">
+    <h2>Destek</h2>
+    <p>Cezaevi Rehberi; cezaevinde yakını bulunanlara ve avukatlara telefon görüşmesi belgeleri, para yatırma, ziyaret kuralları, İstanbul ceza infaz kurumlarının iletişim bilgileri ve tahmini infaz hesaplaması konularında yol gösterir.</p>
+    <p>Soru, hata bildirimi veya öneri için e-posta: <span class="mail">gunduzenes@outlook.com</span></p>
+    <h3>Sık sorulanlar</h3>
+    <ul>
+      <li><strong>Pro satın alımımı nasıl geri yüklerim?</strong> Hakkında sekmesinde “Satın alımı geri yükle”ye dokunun. Aynı Apple kimliğiyle giriş yapmış olmanız yeterlidir.</li>
+      <li><strong>İnfaz hesabı neden müddetnameden farklı?</strong> Uygulama tahmini sonuç verir; iyi hâl, içtima, tekerrür ayrıntıları ve kesinleşme tarihleri sonucu değiştirebilir. Kesin tarih Cumhuriyet başsavcılığınca düzenlenen müddetnamede yer alır.</li>
+      <li><strong>Kurum bilgisi yanlışsa?</strong> E-postayla bildirin; bilgiler uygulama güncellemesi beklenmeden düzeltilir.</li>
+    </ul>
+  </section>
+
+  <section id="gizlilik">
+    <h2>Gizlilik Politikası</h2>
+    <h3><span class="no">1.</span>Toplanan veriler</h3>
+    <p>Uygulama kişisel veri toplamaz, hesap oluşturmanızı istemez, reklam veya analiz aracı içermez ve sizi izlemez.</p>
+    <h3><span class="no">2.</span>Cihazda saklanan bilgiler</h3>
+    <p>İnfaz hesaplama ekranına girdiğiniz bilgiler ve kaydettiğiniz hesaplamalar yalnızca cihazınızda saklanır, hiçbir sunucuya gönderilmez. Uygulamayı sildiğinizde bu bilgiler de silinir.</p>
+    <h3><span class="no">3.</span>İçerik güncellemesi</h3>
+    <p>Uygulama, rehber metinlerinin güncel sürümünü indirmek için bir içerik dosyasına bağlanabilir. Bu istekte sizi tanımlayan bilgi gönderilmez.</p>
+    <h3><span class="no">4.</span>Satın alımlar</h3>
+    <p>Tek seferlik Pro satın alımı Apple App Store üzerinden yapılır. Ödeme bilgileriniz Apple tarafından işlenir ve geliştiriciyle paylaşılmaz.</p>
+    <h3><span class="no">5.</span>Haklarınız ve iletişim</h3>
+    <p>Kişisel veri işlenmediği için 6698 sayılı Kanun kapsamında silinecek veya aktarılacak bir kaydınız bulunmaz. Sorularınız için yukarıdaki e-posta adresine yazabilirsiniz.</p>
+  </section>
+
+  <section id="sorumluluk">
+    <h2>Sorumluluk Reddi</h2>
+    <p class="note">Uygulamadaki bilgiler genel ve yol gösterici niteliktedir; hukuki danışmanlık değildir ve avukat–müvekkil ilişkisi kurmaz. Somut durumunuza ilişkin bilgileri mutlaka bir avukata danışarak teyit ediniz. Uygulama Adalet Bakanlığı ile bağlantılı değildir; resmî kaynaklardan derlenmiş bağımsız bir rehberdir.</p>
+  </section>
+
+  <footer>© 2026 Av. Enes Gündüz. Tüm hakları saklıdır.</footer>
+</main>
+
+</body>
+</html>
