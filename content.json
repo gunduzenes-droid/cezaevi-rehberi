@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 14,
   "updatedAt": "30.10.2026",
   "disclaimer": "Cezaevi Rehberi, cezaevinde yakını bulunan kişilere ve avukatlara yol göstermek amacıyla hazırlanmış bağımsız bir bilgilendirme uygulamasıdır. Uygulamadaki bilgiler hukuki danışmanlık, hukuki görüş veya avukatlık hizmeti değildir ve avukat–müvekkil ilişkisi kurmaz. İçerik; yürürlükteki mevzuat ile ceza infaz kurumlarının resmî duyurularından derlenmiştir, ancak kurum uygulamaları ve mevzuat sık değişebilir. İşlem yapmadan önce ilgili kurumun resmî internet sitesinden veya kurumdan teyit alınız. İnfaz hesaplaması tahmini sonuç verir; kesin tarihler Cumhuriyet başsavcılığınca düzenlenen müddetnamede yer alır. Uygulamanın kullanımından doğabilecek zararlardan geliştirici sorumlu tutulamaz. Somut durumunuza ilişkin bilgileri mutlaka bir avukata danışarak teyit ediniz. Kurucu: Av. Enes Gündüz. © 2026 Av. Enes Gündüz, tüm hakları saklıdır.",
   "categories": [
@@ -614,7 +614,10 @@
               "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4675&MevzuatTur=1&MevzuatTertip=5"
             }
           ],
-          "updatedAt": "30.10.2026"
+          "updatedAt": "30.10.2026",
+          "pro": true,
+          "freeSections": 1,
+          "freeSentences": 2
         },
         {
           "id": "kosullu-saliverilme",
@@ -668,7 +671,10 @@
               "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3713&MevzuatTur=1&MevzuatTertip=5"
             }
           ],
-          "updatedAt": "24.10.2026"
+          "updatedAt": "24.10.2026",
+          "pro": true,
+          "freeSections": 1,
+          "freeSentences": 2
         },
         {
           "id": "denetimli-serbestlik",
@@ -710,7 +716,10 @@
               "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
             }
           ],
-          "updatedAt": "24.10.2026"
+          "updatedAt": "24.10.2026",
+          "pro": true,
+          "freeSections": 1,
+          "freeSentences": 2
         },
         {
           "id": "acik-cezaevi",
@@ -752,7 +761,10 @@
               "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
             }
           ],
-          "updatedAt": "24.10.2026"
+          "updatedAt": "24.10.2026",
+          "pro": true,
+          "freeSections": 1,
+          "freeSentences": 2
         },
         {
           "id": "ozel-infaz",
@@ -776,7 +788,10 @@
               "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
             }
           ],
-          "updatedAt": "24.10.2026"
+          "updatedAt": "24.10.2026",
+          "pro": true,
+          "freeSections": 1,
+          "freeSentences": 2
         },
         {
           "id": "izin",
@@ -851,7 +866,10 @@
               "url": "https://cisst.org.tr/nakil/"
             }
           ],
-          "updatedAt": "30.10.2026"
+          "updatedAt": "30.10.2026",
+          "pro": true,
+          "freeSections": 1,
+          "freeSentences": 2
         },
         {
           "id": "tahliye",
@@ -1226,21 +1244,24 @@
               "url": "https://ispartaecik.adalet.gov.tr/hukumlututuklular-icin-kilavuz"
             }
           ],
-          "updatedAt": "30.10.2026"
+          "updatedAt": "30.10.2026",
+          "pro": true,
+          "freeSections": 1,
+          "freeSentences": 2
         }
       ]
     },
     {
       "id": "avukat",
-      "title": "Avukatlar İçin",
+      "title": "Hukuki Süreçler",
       "icon": "briefcase",
-      "subtitle": "Görüş, müddetname ve pratik notlar",
+      "subtitle": "Tutukluluk, müddetname, dilekçeler, kararlar ve kontrol listeleri",
       "topics": [
         {
           "id": "tutukluluk",
           "title": "Tutukluluğa itiraz, inceleme ve tazminat",
           "summary": "Tutukluluk incelemesi, itiraz süreleri, azami tutukluluk ve haksız tutuklama tazminatı.",
-          "audience": "avukat",
+          "audience": "hepsi",
           "sections": [
             {
               "heading": "Tahliye talebi ve tutukluluk incelemesi",
@@ -1284,13 +1305,16 @@
               "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5271&MevzuatTur=1&MevzuatTertip=5"
             }
           ],
-          "updatedAt": "30.10.2026"
+          "updatedAt": "30.10.2026",
+          "pro": true,
+          "freeSections": 1,
+          "freeSentences": 2
         },
         {
           "id": "avukat-gorusu",
           "title": "Avukat görüşü kuralları",
           "summary": "Vekâletname, görüşme koşulları ve istisnalar.",
-          "audience": "avukat",
+          "audience": "hepsi",
           "sections": [
             {
               "bullets": [
@@ -1314,7 +1338,7 @@
           "id": "muddetname",
           "title": "Müddetname ve infaz hesabı kontrolü",
           "summary": "Kesin tarihlerin dayanağı olan belgeyi kontrol ederken dikkat edilecekler.",
-          "audience": "avukat",
+          "audience": "hepsi",
           "sections": [
             {
               "body": "Koşullu salıverilme ve hak ederek tahliye tarihleri Cumhuriyet başsavcılığı infaz bürosunca düzenlenen müddetnamede yer alır. Uygulamadaki hesaplama ile müddetname arasında fark görürseniz aşağıdaki noktaları kontrol edin.",
@@ -1334,13 +1358,16 @@
               "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
             }
           ],
-          "updatedAt": "24.10.2026"
+          "updatedAt": "24.10.2026",
+          "pro": true,
+          "freeSections": 1,
+          "freeSentences": 2
         },
         {
           "id": "dilekce-ornekleri",
           "title": "Dilekçe örnekleri",
           "summary": "İnfaz hâkimliği şikâyeti, nakil, sağlık ve tahliye talepleri için örnek metinler.",
-          "audience": "avukat",
+          "audience": "hepsi",
           "sections": [
             {
               "heading": "Kullanmadan önce",
@@ -1382,7 +1409,10 @@
               "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5271&MevzuatTur=1&MevzuatTertip=5"
             }
           ],
-          "updatedAt": "30.10.2026"
+          "updatedAt": "30.10.2026",
+          "pro": true,
+          "freeSections": 1,
+          "freeSentences": 2
         }
       ]
     },
@@ -1553,10 +1583,16 @@
       "type": "L Tipi Kapalı",
       "district": "Silivri",
       "address": "Semizkumlar Mah. Çanta Cad. No:162, Marmara Ceza İnfaz Kurumları Kampüsü, Silivri / İstanbul",
-      "phones": [],
-      "website": "https://cte.adalet.gov.tr/Home/haritaliste",
-      "notes": "İletişim bilgileri henüz doğrulanmadı; CTE kurum listesinden kontrol edin.",
-      "lastVerified": "24.10.2026"
+      "phones": [
+        "0212 726 00 07",
+        "0506 600 63 10"
+      ],
+      "email": "marmara.7ltcik@adalet.gov.tr",
+      "website": "https://marmara7lcik.adalet.gov.tr",
+      "visitNote": "Kurum açık ve kapalı görüş programlarını ve bayram açık görüşlerini resmî sitesinde PDF olarak yayımlar. Açık görüşlerde eşya alınmaz.",
+      "moneyNote": "Para yalnızca VakıfBank ATM'lerinden, hükümlünün T.C. kimlik, ID veya kart numarasıyla yatırılır.",
+      "notes": "Eşya PTT ile koğuş belirtilerek 'Marmara 7 Nolu L Tipi Kapalı Ceza İnfaz Kurumu Müdürlüğü'ne gönderilir. Çorap ve iç çamaşırı, şalvar, demirli ayakkabı, kapüşonlu, yazılı/baskılı ve deri giysi ile mavi, lacivert, yeşil ve haki tonlarında giyim eşyası kabul edilmez. Yiyecek ve içecek gönderilemez. Telefon görüşmesi için fatura (son dönem), vukuatlı nüfus kaydı, kimlik fotokopisi ve ikametgâh elden veya posta ile kuruma verilir; hükümlüler dışarıdan aranamaz.",
+      "lastVerified": "30.10.2026"
     },
     {
       "id": "marmara-8",
@@ -1574,7 +1610,14 @@
       "email": "silivri.8ltcik@adalet.gov.tr",
       "website": "https://marmara8lcik.adalet.gov.tr",
       "visitNote": "Ekim-Aralık 2026 programına göre açık görüş ayın üçüncü tam haftasında, kapalı görüş diğer haftalarda koğuşa göre yapılır. Görüşe çocuklar dâhil en fazla 6 kişi alınır.",
-      "lastVerified": "24.10.2026"
+      "lastVerified": "24.10.2026",
+      "cargoWindows": [
+        {
+          "start": "2026-11-01",
+          "end": "2026-11-08",
+          "title": "Kargo kabul haftası"
+        }
+      ]
     },
     {
       "id": "marmara-kadin",
@@ -1599,9 +1642,15 @@
       "type": "Kapalı",
       "district": "Silivri",
       "address": "Semizkumlar Mah. Çanta Cad. No:162, Marmara Ceza İnfaz Kurumları Kampüsü, Silivri / İstanbul",
-      "phones": [],
-      "website": "https://cte.adalet.gov.tr/Home/haritaliste",
-      "lastVerified": "24.10.2026"
+      "phones": [
+        "0212 726 06 84",
+        "0212 726 06 85",
+        "0212 726 06 86"
+      ],
+      "email": "silivri.kcik@adalet.gov.tr",
+      "website": "https://marmarakapalicik.adalet.gov.tr",
+      "notes": "Kurumun eski adı Silivri Kapalı Ceza İnfaz Kurumu'dur; kampüsteki L tipi kurumlarla karıştırmayın. Kurum sitesindeki para gönderme ve ziyaret duyuruları eski tarihlidir (2021); güncel para yatırma yöntemini ve ziyaret gününü kurumu arayarak teyit edin.",
+      "lastVerified": "30.10.2026"
     },
     {
       "id": "marmara-acik",
@@ -1611,10 +1660,15 @@
       "type": "Açık",
       "district": "Silivri",
       "address": "Semizkumlar Mah. Çanta Cad. No:162, Marmara Ceza İnfaz Kurumları Kampüsü, Silivri / İstanbul",
-      "phones": [],
-      "website": "https://cte.adalet.gov.tr/Home/haritaliste",
-      "notes": "Açık kurumlarda telefon görüşmesi serbesttir; ziyaret ve izin hakları daha geniştir.",
-      "lastVerified": "24.10.2026"
+      "phones": [
+        "0212 726 00 00",
+        "0212 866 61 00"
+      ],
+      "email": "marmara.acik@adalet.gov.tr",
+      "website": "https://marmaraacik.adalet.gov.tr",
+      "transport": "Kampüse D-100 ve Avrupa Otoyolu bağlantı yollarıyla ulaşılır. Silivri Otogarı'ndan kampüse dolmuş, Bayrampaşa Otogarı'ndan İETT 303B hattı vardır (kurum sitesindeki bilgi).",
+      "notes": "Açık kurumlarda telefon görüşmesi serbesttir; ziyaret ve izin hakları daha geniştir. Kurum ayrıca kampüsün ortak hizmetlerini (ziyaret kabul, duruşma salonu, hastane sevkleri) yürütür.",
+      "lastVerified": "30.10.2026"
     },
     {
       "id": "maltepe-1",
@@ -1670,10 +1724,16 @@
       "campus": "Maltepe Kampüsü",
       "type": "L Tipi Kapalı",
       "district": "Maltepe",
-      "address": "Büyükbakkalköy Mah. Yakacıkyolu Sok. No:13, Maltepe / İstanbul",
-      "phones": [],
-      "website": "https://cte.adalet.gov.tr/Home/haritaliste",
-      "lastVerified": "24.10.2026"
+      "address": "Büyükbakkalköy Mah. Yakacık Yolu Cad. No:13, Maltepe / İstanbul",
+      "phones": [
+        "0216 564 65 31"
+      ],
+      "email": "maltepe.3ltcik@adalet.gov.tr",
+      "website": "https://maltepe3lcik.adalet.gov.tr",
+      "visitNote": "Açık ve kapalı görüş programları ile bayram açık görüşleri kurum sitesinde duyurulur. Açık görüşlerde eşya alınmaz; yiyecek ve içecek getirilemez.",
+      "moneyNote": "Görüntülü ve sesli görüşme (e-Görüş) için para VakıfBank ATM'sinden 'ön ödemeli kart para yatırma' ile hükümlünün ID veya T.C. kimlik numarasına yatırılır. Kuruma para PTT (Samandıra/Maltepe cezaevleri PTT şubesi) veya VakıfBank havalesiyle gönderilir; alıcı adı ve açıklamaya hükümlünün adı soyadı, varsa T.C. kimlik numarası ve baba adı yazılır. Kurum, ATM'den kuruma havale yapılmamasını ve mektup/koli içinde para gönderilmemesini ister; Western Union kabul edilmez.",
+      "notes": "Kabul edilmeyen eşyalar: yıkanmış çorap ve iç çamaşırı, şalvar ve yöresel kıyafet, demirli ayakkabı, deri giysi, şişme yelek/mont, kişisel bakım ürünleri, battaniye, nevresim ve çarşaf. Giysiler güvenlik görevlilerinin üniformasına benzer renkte olamaz.",
+      "lastVerified": "30.10.2026"
     },
     {
       "id": "maltepe-acik",
@@ -1682,10 +1742,18 @@
       "campus": "Maltepe Kampüsü",
       "type": "Açık",
       "district": "Maltepe",
-      "address": "Büyükbakkalköy Mah. Yakacıkyolu Sok. No:13, Maltepe / İstanbul",
-      "phones": [],
+      "address": "Büyükbakkalköy Mah. Yakacıkyolu Cad. No:13, Maltepe Ceza İnfaz Kurumları Kampüsü, 34858 Maltepe / İstanbul",
+      "phones": [
+        "0216 564 65 01",
+        "0506 600 63 34",
+        "0506 600 63 35"
+      ],
+      "email": "abbmaltepe.acik@adalet.gov.tr",
       "website": "https://maltepeacik.adalet.gov.tr",
-      "lastVerified": "24.10.2026"
+      "visitNote": "Ziyaret programı kurumun resmî sitesindeki 'Ziyaret Programı' sayfasında yayımlanır.",
+      "moneyNote": "Para yalnızca VakıfBank ATM'lerinden kartsız yatırılır: Giriş > Kartsız İşlemler > Nakit Para Yatırmalı İşlemler > Ön Ödemeli Kart Para Yatırma; kendi T.C. kimlik ve cep telefonu numaranızı, ardından hükümlünün 16 haneli kart numarasını veya T.C. kimlik numarasını girin.",
+      "notes": "Açık kurumlarda telefon görüşmesi serbesttir; ziyaret ve izin hakları daha geniştir.",
+      "lastVerified": "30.10.2026"
     },
     {
       "id": "metris-1",
@@ -1720,10 +1788,14 @@
       "type": "T Tipi Kapalı",
       "district": "Esenler",
       "address": "15 Temmuz Mah. Eski Edirne Asfaltı Üzeri No:419, Esenler / İstanbul",
-      "phones": [],
+      "phones": [
+        "0212 618 56 17",
+        "0212 477 66 15"
+      ],
       "website": "https://metris2tcik.adalet.gov.tr",
-      "visitNote": "Bayram ve özel gün açık görüş programları kurum sitesinde koğuş/oda numarasına göre yayımlanır.",
-      "lastVerified": "24.10.2026"
+      "visitNote": "Ziyaret gün ve saatleri ile bayram ve özel gün açık görüş programları kurum sitesinde koğuş/oda numarasına göre yayımlanır.",
+      "moneyNote": "Kartlı sisteme geçildi: kantin ve görüntülü görüşme parası yalnızca VakıfBank ATM'lerinden, kartsız işlemler > nakit para yatırmalı işlemler > ön ödemeli kart para yatırma adımlarıyla hükümlünün kart veya ID numarasına yatırılır. Havale/EFT, PTT ve ziyarette para yatırma kullanılamaz. Kart veya ID numarasını ve yurt dışından gönderimi 0212 477 66 15'ten Emanet Para Birimi'ne sorun.",
+      "lastVerified": "30.10.2026"
     },
     {
       "id": "metris-r",
@@ -1733,10 +1805,16 @@
       "type": "R Tipi (Rehabilitasyon)",
       "district": "Esenler",
       "address": "15 Temmuz Mah. Eski Edirne Asfaltı Üzeri No:419, Esenler / İstanbul",
-      "phones": [],
-      "website": "https://cte.adalet.gov.tr/Home/haritaliste",
+      "phones": [
+        "0212 617 19 19",
+        "0212 477 66 15"
+      ],
+      "email": "metris.rtcik@adalet.gov.tr",
+      "website": "https://metris2tcik.adalet.gov.tr",
+      "visitNote": "Ziyaret gün ve saatleri kurumun sitesindeki çizelgede (PDF) yayımlanır; R tipi kurumun bilgileri Metris 2 Nolu T Tipi ile ortak sitededir.",
+      "moneyNote": "Kartlı sisteme geçildi: kantin ve görüntülü görüşme parası yalnızca VakıfBank ATM'lerinden, kartsız işlemler > nakit para yatırmalı işlemler > ön ödemeli kart para yatırma adımlarıyla hükümlünün kart veya ID numarasına yatırılır. Havale/EFT, PTT ve ziyarette para yatırma kullanılamaz. Kart veya ID numarasını ve yurt dışından gönderimi 0212 477 66 15'ten Emanet Para Birimi'ne sorun.",
       "notes": "Fiziksel veya ruhsal engelli, hasta ve bakıma ihtiyaç duyan hükümlü ve tutuklular için rehabilitasyon kurumudur.",
-      "lastVerified": "24.10.2026"
+      "lastVerified": "30.10.2026"
     },
     {
       "id": "umraniye-t",
@@ -1761,10 +1839,19 @@
       "campus": "Ümraniye",
       "type": "E Tipi Kapalı",
       "district": "Ümraniye",
-      "address": "Hekimbaşı Mevkii, Ümraniye / İstanbul",
-      "phones": [],
-      "website": "https://cte.adalet.gov.tr/Home/haritaliste",
-      "lastVerified": "24.10.2026"
+      "address": "İnkılap Mah. Küçüksu Cad. No:267/B, 34768 Ümraniye / İstanbul",
+      "phones": [
+        "0216 632 43 47",
+        "0216 632 43 49",
+        "0216 632 40 51",
+        "0216 632 40 52"
+      ],
+      "email": "umraniye.etcik@adalet.gov.tr",
+      "website": "https://umraniyeecik.adalet.gov.tr",
+      "visitNote": "Açık ve kapalı görüş programı her ay kurum sitesinde duyurulur. Çocuklar dahil en fazla 6 kişi görüşe girebilir; T.C. kimlik numaralı nüfus cüzdanının aslı ziyaret süresince görevliye bırakılır. Kurumda kadın ve 18 yaş altı hükümlü/tutuklu bulunmaz.",
+      "moneyNote": "Kurumda nakit para alınmaz. Kantin ve görüntülü görüşme parası VakıfBank ATM'lerinden hükümlü numarasıyla karta yatırılır. APS, faks, kargo, gazete, fotoğraf gibi diğer harcamalar için kurum hesabına havale/EFT (FAST kullanmayın; açıklamaya hükümlünün adı soyadı, T.C. kimlik numarası ve yatıranın adı) veya Ümraniye Merkez PTT'ye normal havale yapılır. Kurumun IBAN bilgisi resmî sitesindedir.",
+      "notes": "Eşya yalnızca PTT Kargo ile kabul edilir, elden eşya alınmaz; yalnızca kitap ve giyim eşyası gönderilebilir. Kargoya koğuş, anne-baba adı ve göndericinin adı soyadı, T.C. kimlik numarası ve açık adresi yazılmalıdır. Hükümlünün üzerindeki eşya toplam 30 adetle sınırlıdır (ör. 6 pantolon, 6 gömlek, 6 tişört, 6 kazak, 3 pijama, 3 eşofman, 1 mont). Lacivert, yeşil ve turuncu tonları ile iç çamaşırı, terlik, havlu, çorap, şampuan, sabun ve tespih gönderilemez.",
+      "lastVerified": "30.10.2026"
     },
     {
       "id": "bakirkoy-kadin",
@@ -1773,11 +1860,18 @@
       "campus": "Bakırköy",
       "type": "Kadın Kapalı",
       "district": "Bakırköy",
-      "address": "Bakırköy / İstanbul",
-      "phones": [],
-      "website": "https://cte.adalet.gov.tr/Home/haritaliste",
-      "notes": "Adres ve iletişim bilgileri henüz doğrulanmadı.",
-      "lastVerified": "24.10.2026"
+      "address": "Zuhuratbaba Mah. Dr. Tevfik Sağlam Cad. No:28 (Lepra Hastanesi yanı), Bakırköy / İstanbul",
+      "phones": [
+        "0212 660 80 26",
+        "0212 660 80 27"
+      ],
+      "email": "bakirkoy.kadkcik@adalet.gov.tr",
+      "website": "https://bakirkoykkcik.adalet.gov.tr",
+      "transport": "Bakırköy Ruh ve Sinir Hastalıkları Hastanesi ile Lepra Hastanesi arasında; Bakırköy Adliyesi'ne yaklaşık 3 km.",
+      "visitNote": "Görüş günü ve saati koğuşa göre sabittir (30.01.2026 tarihli çizelge): Pazartesi–Cuma, ziyaretçiler 08.15–15.30 arasında koğuşa ayrılmış yarım saatlik dilimde optik kayıt yaptırır; geç kalan ziyarete alınmaz. Açık görüş her ayın son pazartesisine denk gelen haftada yapılır (hafta ortasına denk gelirse bir sonraki hafta başında); diğer haftalar kapalı görüştür. Görüşe çocuk ve bebekler dahil en fazla 6 kişi girebilir. 12.10.2026'dan itibaren 3 kişilik arkadaş listesindeki 18 yaşından küçükler, anne-baba veya yasal temsilcisiyle noterden alınan muvafakatname olmadan ziyarete kabul edilmez.",
+      "moneyNote": "Kurumda kartlı sisteme geçildi; kantin, telefon ve görüntülü görüşme harcamaları hesap kartından yapılır. Yurt içinden para yalnızca VakıfBank ATM'lerinden, tutuklu/hükümlüye tanımlı kart numarasına yatırılır; IBAN ile gönderilmez. Yurt dışından gönderim için kurumun IBAN ve SWIFT bilgileri resmî sitesindeki Emanet Para Birimi sayfasındadır (açıklamaya ad soyad ve T.C. kimlik numarası yazılır).",
+      "notes": "Eşya (giyim) kabulü ve düşümü yalnızca açık görüşten önceki son kapalı görüşte ve açık görüşten sonraki ilk kapalı görüşte, görüş saatinde yapılır. Mavi, lacivert, yeşil, haki/kamuflaj, kargo cepli pantolon, kapüşonlu, şişme, deri veya kürklü mont ve el yapımı takılar alınmaz. İç çamaşırı ve çorap yeni ve etiketli olmalıdır; kargo paketine para konulmaz. Kuruma yeni gelenlerin giyim eşyası kabul günü beklenmeden alınır.",
+      "lastVerified": "30.10.2026"
     }
   ],
   "sources": [
@@ -1801,5 +1895,385 @@
       "title": "e-Devlet Kapısı",
       "url": "https://www.turkiye.gov.tr"
     }
+  ],
+  "extraTopics": [
+    {
+      "categoryId": "avukat",
+      "topic": {
+        "id": "karar-ozetleri",
+        "title": "Önemli karar özetleri",
+        "summary": "Anayasa Mahkemesi, AİHM ve Yargıtay'ın cezaevi ve infaz uygulamalarına ilişkin seçilmiş kararları.",
+        "audience": "hepsi",
+        "sections": [
+          {
+            "heading": "Bu bölüm nasıl kullanılır?",
+            "body": "Kararlar konu başlıklarına göre gruplandı. Her kararın künyesi, olayı ve sonucu kısaca verildi. Dilekçede atıf yapmadan önce kararın tam metnini resmî karar arama sitelerinden okuyun.",
+            "warning": "Özetler bilgilendirme amaçlıdır; kararın tamamı ve sonraki içtihat değişiklikleri mutlaka kontrol edilmelidir."
+          },
+          {
+            "heading": "Nakil ve aileye yakın kurum",
+            "bullets": [
+              "AYM, Erkam Özkaya, B. No: 2021/26542, 22.07.2026 (Birinci Bölüm): Ailesine yakın kuruma nakil talebi; ailenin ekonomik durumu, ulaşım güçlüğü, küçük çocuklar ve hasta baba hiç değerlendirilmeden reddedildi. Aile hayatına saygı hakkı ihlal edildi; 50.000 TL manevi tazminat. Mahkeme, küçük çocuklar söz konusu olduğunda idarenin yükümlülüğünün genişlediğini vurguladı.",
+              "AİHM, Avşar ve Tekin / Türkiye, B. No: 19302/09, 17.09.2019: Ailelerinden yaklaşık 800-1500 km uzaktaki cezaevlerinde uzun süre tutulan ve nakil talepleri kapasite gerekçesiyle reddedilen başvuranlar. Kişisel durumlar (yaş, sağlık, ailenin maddi durumu) dengelenmediği için Sözleşme md. 8 ihlal edildi; her başvurana 6.000 EUR.",
+              "AİHM, Vintman / Ukrayna, B. No: 28403/05, 23.10.2014: Evinden yaklaşık 700 km uzakta tutulan ve yaşlı annesi ziyarete gelemeyen hükümlünün nakil talepleri ayrıntılı gerekçe olmadan reddedildi; md. 8 ihlali.",
+              "Uygulama notu: Nakil dilekçesinde ailenin ikametgâhı, mesafe, ulaşım ve konaklama maliyeti, yaşlı veya hasta aile bireyleri ve küçük çocuklar belgelerle gösterilmeli; ret kararının bu hususları tartışıp tartışmadığı denetlenmelidir."
+            ]
+          },
+          {
+            "heading": "Telefon ve haberleşme",
+            "bullets": [
+              "AYM, İzzetdin Sert, B. No: 2020/33016, 16.09.2025: Başka cezaevindeki nişanlısıyla telefonla görüşme talebi, somut gerekçe gösterilmeden reddedildi. Özel hayata saygı hakkı ve haberleşme hürriyeti ihlal edildi; 34.000 TL manevi tazminat.",
+              "AYM, Abdullah Bilgin, B. No: 2019/16772, 12.04.2023: Farklı kurumlardaki eşlerin yaptığı tek telefon görüşmesi her ikisinin haftalık hakkından düşüldü. Aile hayatına saygı hakkı ihlal edildi; 18.000 TL manevi tazminat.",
+              "AYM, F.A., B. No: 2021/5835, 14.05.2025: Mahpusların telefon görüşmelerinin suç ve infaz rejimi ayrımı gözetilmeden sistematik olarak dinlenip kaydedilmesi kanuni dayanaktan yoksun bulundu (Hüsamettin Uğur (2), B. No: 2020/14791, 15.11.2023 kararına atıfla); haberleşme hürriyeti ihlal edildi. Aynı kararda haftalık görüşmenin birden fazla numarayla yapılması talebi açıkça dayanaktan yoksun bulundu.",
+              "AYM, Kahraman Güvenç (2), B. No: 2013/2260, 04.02.2016: Hükümlünün yayınevine göndermek istediği mektuba ilgili ve yeterli gerekçe gösterilmeden el konuldu; haberleşme hürriyeti ihlal edildi, yeniden yargılama için dosya infaz hâkimliğine gönderildi."
+            ]
+          },
+          {
+            "heading": "Ziyaret ve görüş",
+            "bullets": [
+              "AYM, F.A., B. No: 2021/5835, 14.05.2025: COVID-19 döneminde Genel Müdürlük yazılarıyla getirilen açık ve kapalı görüş kısıtlamaları kanuni dayanaktan yoksun bulundu (Yunus Bulut kararına atıfla); özel ve aile hayatına saygı hakkı ihlal edildi, 34.000 TL manevi tazminat.",
+              "AYM, Mehmet Koray Eryaşa, B. No: 2013/6693, 16.04.2015: Tutukluların ziyaret ve telefon imkânlarının mevzuat çerçevesinde düzenlenmesi, cezaevinde tutulmanın doğal sonucu olarak değerlendirildi; idarenin bu alanda geniş takdir yetkisi bulunduğu vurgulandı."
+            ]
+          },
+          {
+            "heading": "Kitap ve yayın",
+            "bullets": [
+              "AYM, Erdoğan Kardeşler, B. No: 2018/15777, 07.04.2021: Tutukluya abonelik yoluyla bazı dergilerin verilmemesine ilişkin şikâyet ve itirazın reddi; ifade özgürlüğü ihlal edildi.",
+              "AYM'nin İbrahim Kaptan kararından bu yana yerleşik görüşü: Kargo veya ziyaretçi yoluyla getirilen yayınların (ders kitapları hariç) kategorik olarak kabul edilmemesi tek başına ihlal oluşturmaz; ancak kurum aracılığıyla temin talepleri ve sakıncalı bulma kararları somut gerekçeye dayanmalıdır (ör. B. No: 2018/30532, 14.09.2022; B. No: 2014/15514, 09.01.2019)."
+            ]
+          },
+          {
+            "heading": "Sağlık",
+            "bullets": [
+              "AYM, B. No: 2019/38824, 01.02.2023 ve B. No: 2013/7532, 04.02.2016: Hasta bir kişinin cezaevinde tutulması tek başına kötü muamele değildir; cezaevi koşulları veya uygulanan tedbirler kişiyi olağanın üzerinde sıkıntıya sokuyorsa ve kalmasının uygun olmadığına dair tıbbi rapor varsa ihlal gündeme gelir.",
+              "AYM, Bahattin Önal, B. No: 2022/76993, 03.09.2026: Tutulma koşullarının sağlık durumuna elverişsizliğine ilişkin şikâyet, önce infaz hâkimliğine ve Cumhuriyet başsavcılığına (5275 md. 16) başvurulmadığı için başvuru yollarının tüketilmemesi nedeniyle kabul edilemez bulundu.",
+              "AİHM içtihadında (Gülay Çetin / Türkiye, B. No: 44084/10, 05.03.2013 kararında da hatırlatıldığı gibi) Sözleşme sağlık nedeniyle tahliye için genel bir yükümlülük getirmez; ancak tutulma koşulları hastalığın verdiği acıyı artırıyorsa md. 3 kapsamına girer.",
+              "Uygulama notu: Sağlık şikâyetlerinde önce kurum müdürlüğüne yazılı başvuru, sonra infaz hâkimliği (15 gün) ve gerekiyorsa başsavcılığa md. 16 başvurusu yapılmalı; raporlar ve başvuru tarihleri dosyalanmalıdır."
+            ]
+          },
+          {
+            "heading": "İnfaz hesabı ve geçici maddeler (Yargıtay)",
+            "bullets": [
+              "Geçici 10/6 – eski metin: Yargıtay 1. CD, E. 2024/6342, K. 2025/3754, 09.05.2025 ve E. 2025/476, K. 2025/3758, 09.05.2025: 31.07.2023 tarihinde kapalı kurumda bulunmayan (bu tarihten sonra cezaevine giren) hükümlüler düzenlemeden yararlanamaz. Yargıtay 1. CD, E. 2024/7796, K. 2025/8653, 05.12.2025: 31.07.2023'te tutuklu olarak bulunan da yararlanamaz.",
+              "Geçici 10/6 – 7571 sayılı Kanunla değişiklik (RG 25.12.2025): Fıkradaki \"31/7/2023 tarihi itibarıyla\" ibaresi \"31/7/2023 tarihi ve öncesinde işlenmiş suçlar nedeniyle\" olarak değiştirildi; 82/1-d-e-f, depremde yapı çökmesiyle öldürme ve 102, 103, 104/2-3 suçları istisnalara eklendi. Yargıtay 1. CD, E. 2024/3203, K. 2026/1975, 13.03.2026 kararında kanun yararına bozma incelemesinin karar tarihindeki mevzuata göre yapıldığı belirtildi. Değişiklik sonrası işlemlerde suç tarihi esas alınmalıdır.",
+              "Mahsup: Yargıtay 1. CD, E. 2023/9250, K. 2024/639, 26.01.2024: Müddetnamede cezaevine giriş tarihi olarak kesinleşme tarihinin yazılması, gözaltı ve tutukluluk süreleri doğru mahsup edilmişse çelişki sayılmaz.",
+              "Mahsup: Yargıtay 1. CD, E. 2024/5738, K. 2024/6989, 25.10.2024: Eski dosyalardaki gözaltı sürelerinin mahsubu talebi, gözaltı tutanakları ve kararların kesinleşme tarihleri araştırılmadan reddedilemez.",
+              "İçtima ve denetimli serbestlik: Yargıtay 1. CD, E. 2025/3149, K. 2026/3755, 08.05.2026: Koşullu salıverilme tarihinden önce kesinleşen yeni ceza için önce toplama kararı alınır; yeni koşullu salıverilme tarihine göre 105/A koşulları değerlendirilir ve daha önce denetimli serbestlikte geçen süre dikkate alınarak kalan süre belirlenir.",
+              "Örgütten ayrılma: Yargıtay 1. CD, E. 2023/2780, K. 2023/1514, 31.03.2023: Örgütten ayrılmadaki samimiyeti ve iyi hâli tasdik edilen, açık kuruma ayrılma şartlarını taşıyan hükümlü koşullu salıverilmeye bir yıl kala denetimli serbestlikten yararlanabilir."
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "Anayasa Mahkemesi Kararlar Bilgi Bankası",
+            "url": "https://kararlarbilgibankasi.anayasa.gov.tr"
+          },
+          {
+            "title": "AİHM HUDOC",
+            "url": "https://hudoc.echr.coe.int"
+          },
+          {
+            "title": "Yargıtay Karar Arama",
+            "url": "https://karararama.yargitay.gov.tr"
+          }
+        ],
+        "updatedAt": "30.10.2026",
+        "pro": true,
+        "freeSections": 1,
+        "freeSentences": 2
+      }
+    },
+    {
+      "categoryId": "avukat",
+      "topic": {
+        "id": "kontrol-listeleri",
+        "title": "Adım adım kontrol listeleri",
+        "summary": "Tutuklama, infaz ve tahliye aşamalarında atlanmaması gereken adımlar.",
+        "audience": "hepsi",
+        "sections": [
+          {
+            "heading": "Tutuklama sonrası ilk 72 saat",
+            "steps": [
+              "Tutuklama kararının gerekçesini alın; kuvvetli suç şüphesi, tutuklama nedeni, ölçülülük ve adli kontrolün yetersizliğinin somut olgularla gösterilip gösterilmediğini kontrol edin (CMK md. 101/2).",
+              "Kararı öğrenme tarihini not edin; itiraz süresi 2 haftadır (CMK md. 268/1). Sulh ceza hâkimliği kararına itirazı asliye ceza hâkimi inceler (md. 268/3-b).",
+              "Müvekkilin hangi kuruma gönderildiğini UYAP'tan veya kurumdan teyit edin; ilk görüşmeyi planlayın (vekâletname olmadan tutukluyla görüşme kısıtlanamaz).",
+              "Yakınlara telefon belgeleri, ziyaretçi listesi, para yatırma ve eşya kuralları hakkında bilgi verin.",
+              "Sağlık sorunları, düzenli ilaçlar ve raporlar varsa kurum müdürlüğüne yazılı olarak iletin.",
+              "Soruşturma evresinde 30 günlük tutukluluk incelemelerini ve azami süreleri (CMK md. 102, 108) takvime işleyin."
+            ]
+          },
+          {
+            "heading": "Hüküm ve kesinleşme",
+            "steps": [
+              "Gerekçeli kararın tebliğ tarihini kaydedin; istinaf ve temyiz süresi 2 haftadır (CMK md. 273, 291).",
+              "Kesinleşmeden sonra müddetnameyi UYAP'tan alın; suç tarihi, mahsup, oran, tekerrür ve içtimayı kontrol edin.",
+              "Hata varsa öğrenmeden itibaren 15 gün, her hâlde 30 gün içinde infaz hâkimliğine şikâyet edin (4675 md. 5).",
+              "Tutuksuz müvekkil için çağrı kâğıdı tebliğinden itibaren 10 günlük süreyi ve md. 17 erteleme imkânını değerlendirin."
+            ]
+          },
+          {
+            "heading": "Açık cezaevi ve denetimli serbestlik dosyası",
+            "steps": [
+              "Açık kuruma ayrılma tarihini Yönetmelik md. 5-8 ve geçici maddelere göre hesaplayın; birden fazla cezada esas alınacak suçun koşullu salıverilmeye en az sürenin arandığı suç olduğunu unutmayın (Yönetmelik md. 6/3).",
+              "İyi hâl değerlendirmesinin en geç altı ayda bir yapıldığını, olumsuz değerlendirmede yeniden değerlendirmenin bir yılı geçemeyeceğini takip edin (5275 md. 89).",
+              "Disiplin cezası varsa kaldırılma sürelerini (md. 48/4) hesaplayın; kaldırılmadıkça koşullu salıverilme işlemi yapılmaz.",
+              "105/A için: açık kurumda bulunma (veya iradesi dışında ayrılamama), koşullu salıverilmeye kalan süre, 04.06.2025 sonrası suçlarda 1/10 şartı (geçici md. 11) ve hükümlünün talebi.",
+              "Denetimli serbestlik müdürlüğü adresini ve 5 günlük başvuru süresini müvekkile yazılı bildirin; 2 günlük ek sürenin ardından firar hükümlerinin uygulanacağını hatırlatın (md. 105/A-6, 8)."
+            ]
+          },
+          {
+            "heading": "Tahliye sonrası",
+            "steps": [
+              "Koşullu salıverme kararındaki yükümlülükleri ve denetim süresini müvekkile yazılı olarak açıklayın (md. 107/9).",
+              "Adres değişikliklerinin bildirilmesi gerektiğini hatırlatın.",
+              "Haksız tutuklama veya mahsup fazlası varsa tazminat sürelerini işleyin: kesinleşmenin tebliğinden itibaren 3 ay, her hâlde 1 yıl (CMK md. 142).",
+              "Emanetteki para, eşya ve belgelerin teslim alındığını kontrol edin."
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "5271 sayılı Ceza Muhakemesi Kanunu",
+            "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5271&MevzuatTur=1&MevzuatTertip=5"
+          },
+          {
+            "title": "5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun",
+            "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
+          },
+          {
+            "title": "4675 sayılı İnfaz Hâkimliği Kanunu",
+            "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4675&MevzuatTur=1&MevzuatTertip=5"
+          }
+        ],
+        "updatedAt": "30.10.2026",
+        "pro": true,
+        "freeSections": 1,
+        "freeSentences": 2
+      }
+    },
+    {
+      "categoryId": "haklar",
+      "topic": {
+        "id": "sik-sorunlar",
+        "title": "Sık karşılaşılan sorunlar ve çözüm yolları",
+        "summary": "Telefon, eşya, nakil, sağlık, mektup ve para işlemlerinde aksaklık olduğunda ne yapılır?",
+        "audience": "hepsi",
+        "sections": [
+          {
+            "heading": "Genel yol haritası",
+            "steps": [
+              "Önce kurum müdürlüğüne yazılı dilekçe verin; dilekçenin tarih ve sayısını alın veya bir örneğini saklayın.",
+              "Kurumun işlemine veya cevapsız kalmasına karşı işlemi öğrenmeden itibaren 15 gün, her hâlde 30 gün içinde infaz hâkimliğine şikâyet edin. Şikâyeti eş, anne, baba, kardeş, ayırt etme gücüne sahip çocuk veya avukat da yapabilir (4675 md. 5).",
+              "İnfaz hâkimliği kararına tebliğden itibaren 2 hafta içinde ağır ceza mahkemesine itiraz edin (4675 md. 6).",
+              "Kanun yolları tükendikten sonra 30 gün içinde Anayasa Mahkemesine bireysel başvuru yapılabilir."
+            ]
+          },
+          {
+            "heading": "Telefon numarası tanımlanmıyor",
+            "bullets": [
+              "Belgelerin eksiksiz ve güncel olduğunu kontrol edin: nüfus kayıt örneği, yerleşim yeri belgesi, hat sözleşmesi veya son fatura.",
+              "Yakınınızın 'Telefon Görüşme Formu'na numarayı doğru yazdığını teyit edin; formda olmayan numarayla görüşme yaptırılmaz.",
+              "Uzun süre sonuç alınamazsa kuruma yazılı başvurun ve cevap gelmezse infaz hâkimliğine şikâyet edin.",
+              "Başka bir kurumdaki eşle görüşme her iki tarafın haftalık hakkından düşülüyorsa AYM'nin Abdullah Bilgin kararına (2019/16772) dayanılabilir."
+            ]
+          },
+          {
+            "heading": "Eşya veya kargo geri çevrildi",
+            "bullets": [
+              "Kurumun eşya listesindeki adet, renk ve baskı kurallarını kontrol edin ('Eşya teslimi' konusu).",
+              "Kabul edilmeyen eşya için kurum 15 gün içinde yazılı bildirim yapar; yakınınız 15 gün içinde infaz hâkimliğine itiraz edebilir. İtiraz edilmezse eşya gönderene iade edilir veya ilk ziyaret günü yakınına verilmek üzere emanette tutulur (Yönetmelik md. 107).",
+              "Sınır dolduysa önce eşya düşümü yaptırın."
+            ]
+          },
+          {
+            "heading": "Nakil talebi cevapsız veya reddedildi",
+            "bullets": [
+              "Dilekçede en az üç kurum sayıldığını ve md. 54 şartlarının sağlandığını kontrol edin.",
+              "Aile durumunu belgelerle (ikametgâh, sağlık raporu, çocukların yaşı, mesafe) yeniden sunun.",
+              "Ret kararında aile durumunun değerlendirilmemesi AYM Erkam Özkaya (2021/26542) ve AİHM Avşar ve Tekin kararlarına aykırılık oluşturabilir; başvuru yolu için avukatınıza danışın."
+            ]
+          },
+          {
+            "heading": "İlaç verilmiyor veya hastaneye götürülmüyor",
+            "bullets": [
+              "Yakınınız kurum müdürlüğüne yazılı başvurarak muayene ve sevk istemeli; dışarıdaki raporlar kuruma iletilmeli.",
+              "Sonuç alınmazsa infaz hâkimliğine şikâyet edin. Hayati tehlike varsa Cumhuriyet başsavcılığına md. 16 kapsamında başvurun.",
+              "AYM, bu yollar tüketilmeden yapılan sağlık şikâyetlerini kabul edilemez bulmaktadır (Bahattin Önal, 2022/76993)."
+            ]
+          },
+          {
+            "heading": "Mektup verilmedi veya gönderilmedi",
+            "bullets": [
+              "Mektuba el konulması disiplin kurulu kararıyla olur ve kararın gerekçeli olması gerekir.",
+              "Karara karşı 15 gün içinde infaz hâkimliğine şikâyet edin. Somut gerekçe gösterilmemesi AYM'nin Kahraman Güvenç (2) kararına (2013/2260) göre haberleşme hürriyetinin ihlali olabilir."
+            ]
+          },
+          {
+            "heading": "Kitap veya dergi verilmedi",
+            "bullets": [
+              "Kargo veya ziyaretçiyle getirilen yayınların kabul edilmemesi tek başına ihlal sayılmayabilir; kurum aracılığıyla satın alma veya abonelik talep edin.",
+              "Sakıncalı bulma kararı somut gerekçe içermiyorsa infaz hâkimliğine şikâyet edin (AYM Erdoğan Kardeşler, 2018/15777).",
+              "Eğitimine devam edenlerin ders kitapları denetime tabi tutulamaz (5275 md. 62/2)."
+            ]
+          },
+          {
+            "heading": "Yatırılan para hesaba geçmedi",
+            "bullets": [
+              "ATM dekontunu veya havale makbuzunu saklayın; kimlik/ID numarasının doğru girildiğini kontrol edin.",
+              "Kurumun emanet para bürosunu arayın; çözüm olmazsa dekontla birlikte yazılı başvuru yapın.",
+              "Ziyarette elden para verilemez; kurumun geçici emanet hesabına havale kabul edilmeyebilir."
+            ]
+          },
+          {
+            "heading": "Ziyaretçi listesine ekleme yapılamıyor",
+            "bullets": [
+              "Hükümlüler eş, üçüncü dereceye kadar kan ve kayın hısımları, vasi veya kayyım tarafından ziyaret edilebilir (5275 md. 83); diğer kişiler için kurum izni gerekir.",
+              "Liste değişikliği için yakınınız kuruma dilekçe verir; ret kararına karşı infaz hâkimliği yolu açıktır."
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "4675 sayılı İnfaz Hâkimliği Kanunu",
+            "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4675&MevzuatTur=1&MevzuatTertip=5"
+          },
+          {
+            "title": "5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun",
+            "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
+          },
+          {
+            "title": "Anayasa Mahkemesi Kararlar Bilgi Bankası",
+            "url": "https://kararlarbilgibankasi.anayasa.gov.tr"
+          }
+        ],
+        "updatedAt": "30.10.2026",
+        "pro": true,
+        "freeSections": 1,
+        "freeSentences": 2
+      }
+    }
+  ],
+  "deadlineTypes": [
+    {
+      "id": "infaz-sikayet",
+      "title": "İnfaz hâkimliğine şikâyet",
+      "amount": 15,
+      "unit": "gun",
+      "startLabel": "İşlemi öğrenme tarihi",
+      "basis": "4675 s.K. md. 5",
+      "note": "Her hâlde işlemin yapıldığı tarihten itibaren 30 gün içinde başvurulmalıdır."
+    },
+    {
+      "id": "infaz-sikayet-30",
+      "title": "İnfaz hâkimliğine şikâyet (son sınır)",
+      "amount": 30,
+      "unit": "gun",
+      "startLabel": "İşlemin yapıldığı tarih",
+      "basis": "4675 s.K. md. 5"
+    },
+    {
+      "id": "infaz-itiraz",
+      "title": "İnfaz hâkimliği kararına itiraz",
+      "amount": 2,
+      "unit": "hafta",
+      "startLabel": "Kararın tebliğ tarihi",
+      "basis": "4675 s.K. md. 6",
+      "note": "İtiraz ağır ceza mahkemesine yapılır."
+    },
+    {
+      "id": "cmk-itiraz",
+      "title": "Hâkim kararına itiraz (tutuklama vb.)",
+      "amount": 2,
+      "unit": "hafta",
+      "startLabel": "Kararı öğrenme tarihi",
+      "basis": "CMK md. 268/1"
+    },
+    {
+      "id": "istinaf",
+      "title": "İstinaf",
+      "amount": 2,
+      "unit": "hafta",
+      "startLabel": "Gerekçeli hükmün tebliğ tarihi",
+      "basis": "CMK md. 273/1"
+    },
+    {
+      "id": "temyiz",
+      "title": "Temyiz",
+      "amount": 2,
+      "unit": "hafta",
+      "startLabel": "Gerekçeli hükmün tebliğ tarihi",
+      "basis": "CMK md. 291/1"
+    },
+    {
+      "id": "tazminat",
+      "title": "Haksız tutuklama tazminatı",
+      "amount": 3,
+      "unit": "ay",
+      "startLabel": "Kesinleşmenin tebliğ tarihi",
+      "basis": "CMK md. 142/1",
+      "note": "Her hâlde kararın kesinleşmesinden itibaren 1 yıl içinde başvurulmalıdır."
+    },
+    {
+      "id": "aym",
+      "title": "Anayasa Mahkemesine bireysel başvuru",
+      "amount": 30,
+      "unit": "gun",
+      "startLabel": "Kanun yolunun tükendiğini öğrenme tarihi",
+      "basis": "6216 s.K. md. 47/5"
+    },
+    {
+      "id": "ds-basvuru",
+      "title": "Denetimli serbestlik müdürlüğüne başvuru",
+      "amount": 5,
+      "unit": "gun",
+      "startLabel": "Cezaevinden çıkış tarihi",
+      "basis": "5275 s.K. md. 105/A-6-a",
+      "note": "Sürenin bitiminden itibaren 2 gün içinde de başvurulmazsa firar hükümleri uygulanır (md. 105/A-8)."
+    },
+    {
+      "id": "cagri",
+      "title": "Çağrı kâğıdı üzerine teslim olma",
+      "amount": 10,
+      "unit": "gun",
+      "startLabel": "Çağrı kâğıdının tebliğ tarihi",
+      "basis": "5275 s.K. md. 19/1"
+    },
+    {
+      "id": "disiplin-savunma",
+      "title": "Disiplin soruşturmasında savunma",
+      "amount": 3,
+      "unit": "gun",
+      "startLabel": "Bildirim tarihi",
+      "basis": "5275 s.K. md. 47/4"
+    }
+  ],
+  "holidays": [
+    "2026-01-01",
+    "2026-03-20",
+    "2026-03-21",
+    "2026-03-22",
+    "2026-04-23",
+    "2026-05-01",
+    "2026-05-19",
+    "2026-05-27",
+    "2026-05-28",
+    "2026-05-29",
+    "2026-05-30",
+    "2026-07-15",
+    "2026-08-30",
+    "2026-10-29",
+    "2027-01-01",
+    "2027-03-09",
+    "2027-03-10",
+    "2027-03-11",
+    "2027-04-23",
+    "2027-05-01",
+    "2027-05-16",
+    "2027-05-17",
+    "2027-05-18",
+    "2027-05-19",
+    "2027-07-15",
+    "2027-08-30",
+    "2027-10-29"
   ]
 }
