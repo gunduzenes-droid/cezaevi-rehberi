@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 6,
   "updatedAt": "30.10.2026",
   "disclaimer": "Cezaevi Rehberi, cezaevinde yakını bulunan kişilere ve avukatlara yol göstermek amacıyla hazırlanmış bağımsız bir bilgilendirme uygulamasıdır. Uygulamadaki bilgiler hukuki danışmanlık, hukuki görüş veya avukatlık hizmeti değildir ve avukat–müvekkil ilişkisi kurmaz. İçerik; yürürlükteki mevzuat ile ceza infaz kurumlarının resmî duyurularından derlenmiştir, ancak kurum uygulamaları ve mevzuat sık değişebilir. İşlem yapmadan önce ilgili kurumun resmî internet sitesinden veya kurumdan teyit alınız. İnfaz hesaplaması tahmini sonuç verir; kesin tarihler Cumhuriyet başsavcılığınca düzenlenen müddetnamede yer alır. Uygulamanın kullanımından doğabilecek zararlardan geliştirici sorumlu tutulamaz. Somut durumunuza ilişkin bilgileri mutlaka bir avukata danışarak teyit ediniz. Kurucu: Av. Enes Gündüz. © 2026 Av. Enes Gündüz, tüm hakları saklıdır.",
   "categories": [
@@ -347,21 +347,170 @@
         },
         {
           "id": "mektup-esya",
-          "title": "Mektup ve eşya gönderme",
-          "summary": "Mektup adresleme ve kargo ile eşya gönderiminde genel kurallar.",
+          "title": "Mektup ve kargo gönderme",
+          "summary": "Mektup adresleme ve kargo ile gönderimde genel kurallar.",
           "audience": "hepsi",
           "sections": [
             {
               "bullets": [
                 "Zarfa alıcının adı soyadı, baba adı, kurumun tam adı ve mümkünse koğuş numarası yazılır.",
                 "Mektuplar kurumdaki okuma komisyonundan geçer; zarfın içine para veya başka eşya konulmaz.",
-                "Kıyafet ve kitap gönderimi kurumun eşya listesine tabidir; bazı kurumlar renk ve çeşit sınırlaması uygular.",
-                "Açık görüş haftasında bazı kurumlar eşya kabul etmez; kurumun duyurusunu kontrol edin."
+                "Kargo (PTT) ile çoğu kurumda yalnızca kıyafet, demirsiz ayakkabı ve kitap kabul edilir; yiyecek, içecek, temizlik ve kozmetik ürünü gönderilemez.",
+                "Kargonun üzerine hükümlü/tutuklunun adı soyadı, baba adı veya T.C. kimlik numarası ve koğuş numarası yazılmalı; içindekilerin listesi paketin dışına eklenmelidir. Bilgisi eksik kargolar iade edilir.",
+                "Hangi kıyafetin, kaç adet ve hangi renkte gönderilebileceği için 'Tutuklu ve hükümlüye eşya teslimi' konusuna bakın."
               ]
             }
           ],
-          "sources": [],
-          "updatedAt": "24.10.2026"
+          "sources": [
+            {
+              "title": "Ümraniye T Tipi CİK – Emanet eşya işlemleri",
+              "url": "https://umraniyetcik.adalet.gov.tr/emanet-esya-islemleri"
+            },
+            {
+              "title": "Marmara 8 Nolu L Tipi CİK – Emanet eşya birimi",
+              "url": "https://marmara8lcik.adalet.gov.tr/emanet-esya-birimi"
+            }
+          ],
+          "updatedAt": "30.10.2026"
+        },
+        {
+          "id": "esya-teslim",
+          "title": "Tutuklu ve hükümlüye eşya (kıyafet) teslimi",
+          "summary": "Hangi eşyadan kaç adet, hangi renkte verilebilir; ne zaman ve nasıl teslim edilir?",
+          "audience": "hepsi",
+          "sections": [
+            {
+              "heading": "Genel sınır (Eşya Yönetmeliği md. 7)",
+              "bullets": [
+                "Aynı tür kıyafetten en fazla 6 adet, toplamda en fazla 30 parça bulundurulabilir (pantolon, gömlek, tişört, kazak, hırka, ceket, mont, palto, eşofman, pijama, içlik, etek, elbise, eşarp, atkı, kravat vb.).",
+                "Bunlara ek olarak en fazla 3 çift ayakkabı, 1 çift terlik ve 1 kemer bulundurulabilir.",
+                "İç çamaşırı ve çorap ihtiyaç kadar bulundurulabilir; ancak İstanbul kurumlarının çoğu bunları dışarıdan kabul etmez, kantinden alınır.",
+                "Kanuna uygun 1 şapka bulundurulabilir; Marmara kurumları şapka kabul etmez.",
+                "Eskiyen kıyafetler yenileriyle değiştirilebilir; 30 parçalık sınır dolduysa yeni kıyafet için eskilerin dışarı çıkarılması gerekir ('Eşya çıkışı ve eşya düşümü' konusuna bakın)."
+              ],
+              "warning": "Bu sınırlar yönetmelikteki üst sınırdır. Kurumlar idare ve gözlem kurulu kararıyla daha dar liste uygulayabilir; göndermeden önce kurumun güncel duyurusuna bakın."
+            },
+            {
+              "heading": "Renk kuralları",
+              "bullets": [
+                "Kıyafet, infaz ve koruma memurlarının ve jandarmanın üniformasına biçim veya renk olarak benzememelidir.",
+                "İstanbul kurumlarında genellikle kabul edilmeyen renkler: lacivert ve maviden lacivert tonlarına kadar tüm mavi tonları, koyu yeşil, haki, askerî kamuflaj desenli ve turuncu.",
+                "Güvenli seçim: siyah, gri, beyaz, kahverengi, bej, bordo gibi düz renkler."
+              ]
+            },
+            {
+              "heading": "Baskı, yazı ve model kuralları",
+              "bullets": [
+                "Terör propagandası içeren, suçu veya suçluyu öven, suça teşvik eden ya da müstehcen sembol, yazı veya resim taşıyan kıyafet kabul edilmez (Yönetmelik md. 7).",
+                "Pek çok kurum bunun ötesinde baskılı veya yazılı kıyafeti hiç kabul etmez (Marmara 3, Ümraniye E). Ümraniye T yalnızca marka adı ve logoya izin verir; slogan, yabancı dilde yazı ve resim kabul edilmez. En sorunsuzu düz, baskısız kıyafettir.",
+                "Genellikle kabul edilmeyenler: kapüşonlu mont, hırka ve sweatshirt; şişme mont ve yelek; deri ve süet kıyafet; kargo/taktik cepli pantolon ve eşofman; içinde demir veya metal olan ayakkabı; ıslak, yırtık kıyafet.",
+                "Battaniye, nevresim, yastık, havlu, bornoz, iç çamaşırı, çorap, terlik, tıraş malzemesi, diş fırçası ve macunu, deodorant ve parfüm dışarıdan kabul edilmez; kantinden alınır.",
+                "Saat (analog, arka kapağı açılabilir) ve tespih kabul eden kurumlarda tahmini değeri haftalık harcama limitini aşmamalıdır."
+              ]
+            },
+            {
+              "heading": "Ne zaman teslim edilebilir?",
+              "bullets": [
+                "Yönetmelik kıyafet teslimi için genel bir sıklık belirlemez; sıklığı kurum belirler.",
+                "Hediye hakkı (md. 77): Kapalı kurumdaki hükümlü Ocak, Mart, Mayıs, Temmuz, Eylül ve Kasım aylarının ilk haftasında, dinî bayramlarda, yılbaşında (31 Aralık) ve doğum gününde hediye kabul edebilir. Hediye yalnızca kitap veya giyim eşyası olabilir; aynı tarih için bir kez kabul edilir ve değeri haftalık harcama limitini aşamaz.",
+                "Çocuklar, 65 yaş üstü hükümlüler ve çocuğuyla kalan annelere idare ve gözlem kurulu bu tarihler dışında da hediye izni verebilir.",
+                "Elden teslim çoğu kurumda kapalı görüş gününde, ziyaretten önce kurumun emanet eşya / ziyaret kabul birimine yapılır. Açık görüş günlerinde eşya alınmaz.",
+                "Eşyayı yalnızca ziyaretçi listesinde kayıtlı kişiler, kimlikleriyle teslim edebilir."
+              ]
+            },
+            {
+              "heading": "İstanbul kurumlarından örnekler",
+              "bullets": [
+                "Marmara 1, 3, 5 (Silivri): toplam 30 parça, aynı türden en fazla 6, en fazla 3 çift ayakkabı. Üniformaya benzeyen renkler (lacivert, askerî yeşil, haki) ve kapüşonlu, deri, demirli eşya kabul edilmez. Açık görüş günlerinde eşya alınmaz.",
+                "Marmara 3: kapüşonlu, deri, şalvar ve baskılı/yazılı kıyafet; lacivert, mavi, yeşil ve haki tonları PTT ile kabul edilmez.",
+                "Marmara 8: kargo yalnızca ilan edilen haftalarda kabul edilir. 2026 için: 1–8 Mart, 4–10 Mayıs, 29 Haziran–5 Temmuz, 31 Ağustos–6 Eylül, 1–8 Kasım. Hükümlünün doğum günü haftasında gelen kargo da kabul edilir; diğer tarihlerde gelen kargo iade edilir.",
+                "Ümraniye T Tipi: elden teslim Pazartesi–Perşembe 09.00–12.00 ve 13.00–16.00 arası; eşya iki ayda bir kez kabul edilir (süre her hükümlü için son teslimden başlar). İstanbul içinden gönderilen kargo kabul edilmez.",
+                "Ümraniye E Tipi: ayakkabı 6 ayda bir getirilebilir (kuruma ilk girişte bu kural aranmaz); eşya koğuşun kapalı görüş gününde teslim edilir."
+              ],
+              "tip": "Kurumların listeleri sık değişir. Göndermeden önce kurumun resmî sitesindeki 'Emanet Eşya' sayfasını açın ya da kurumu arayın."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Ceza İnfaz Kurumlarında Bulundurulabilecek Eşya ve Maddeler Hakkında Yönetmelik md. 7, 17 (31.01.2023 değişiklikleriyle)",
+              "url": "https://rayp.adalet.gov.tr/resimler/633/dosya/emanet-esya-yonetmeligi21-03-20232-38-pm.pdf"
+            },
+            {
+              "title": "Ceza İnfaz Kurumlarının Yönetimi ile Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Yönetmelik md. 77 (hediye; RG 12.11.2021 değişikliği)",
+              "url": "https://www.lexpera.com.tr/resmi-gazete/metin/ceza-infaz-kurumlarinin-yonetimi-ile-ceza-ve-guvenlik-tedbirlerinin-infazi-hakkinda-yonetmelikte-1"
+            },
+            {
+              "title": "Marmara 1 Nolu L Tipi CİK – Emanet eşya birimi",
+              "url": "https://marmara1lcik.adalet.gov.tr/emanet-esya-birimi"
+            },
+            {
+              "title": "Marmara 3 Nolu L Tipi CİK – Emanet eşya birimi",
+              "url": "https://marmara3lcik.adalet.gov.tr/emanet-esya-birimi"
+            },
+            {
+              "title": "Marmara 5 Nolu L Tipi CİK – Emanet eşya",
+              "url": "https://marmara5lcik.adalet.gov.tr/emanet-esya"
+            },
+            {
+              "title": "Marmara 8 Nolu L Tipi CİK – Emanet eşya birimi",
+              "url": "https://marmara8lcik.adalet.gov.tr/emanet-esya-birimi"
+            },
+            {
+              "title": "Ümraniye E Tipi CİK – Emanet eşya birimi duyurusu",
+              "url": "https://umraniyeecik.adalet.gov.tr/emanet-esya-birimi-duyurusu"
+            },
+            {
+              "title": "Ümraniye T Tipi CİK – Emanet eşya işlemleri",
+              "url": "https://umraniyetcik.adalet.gov.tr/emanet-esya-islemleri"
+            }
+          ],
+          "updatedAt": "30.10.2026"
+        },
+        {
+          "id": "esya-cikisi",
+          "title": "Eşya çıkışı ve eşya düşümü",
+          "summary": "Tutuklu veya hükümlü eşyalarını yakınına nasıl verir; yeni kıyafet için eskiler nasıl düşülür?",
+          "audience": "hepsi",
+          "sections": [
+            {
+              "heading": "Eşya düşümü nedir?",
+              "body": "Her tutuklu ve hükümlünün kurumda bir eşya kartı (kaydı) vardır; içeri alınan her kıyafet bu karta işlenir. Kişi bir eşyayı dışarı verdiğinde eşya karttan düşülür ve 30 parçalık sınırda yeni eşyaya yer açılır. Sınır dolduysa yeni kıyafet gelmeden önce eskilerin düşümü yapılmalıdır."
+            },
+            {
+              "heading": "Nasıl yapılır?",
+              "steps": [
+                "Tutuklu/hükümlü, dışarı vermek istediği eşyaları ve teslim alacak yakınını belirten bir dilekçeyi kurum idaresine verir.",
+                "Eşyalar kurumun belirlediği günde emanet eşya birimine getirilir ve eşya kartından düşülür.",
+                "Yakın, ziyaret gününde kimliğiyle emanet eşya birimine başvurarak eşyaları teslim alır. Teslim alan kişi genellikle ziyaretçi listesinde kayıtlı olmalıdır.",
+                "Yeni kıyafetler varsa aynı gün kurumun kurallarına göre teslim edilir ve karta işlenir."
+              ]
+            },
+            {
+              "heading": "Bilinmesi gerekenler",
+              "bullets": [
+                "Eşya çıkışının hangi gün yapılacağını kurum belirler. Bazı kurumlar eşya çıkışını yalnızca açık görüş haftasında yapar (ör. Rize L Tipi), İstanbul kurumlarının çoğu ise açık görüşte eşya işlemi yapmaz. Kurumunuzun uygulamasını önceden öğrenin.",
+                "Kargoyla gelen eşyadan sınırı aşan veya kabul edilmeyen kısım koğuşa verilmez, emanet deposunda yakına teslim edilmek üzere saklanır. Ümraniye T Tipi bu eşyaları en fazla 15 gün saklar; bu sürede alınmazsa hükümlünün bildirdiği adrese kargo ücreti kendisinden alınarak gönderilir.",
+                "Posta ile gelen ve verilmesi uygun görülmeyen eşya için kurum 15 gün içinde yazılı bildirim yapar; hükümlü 15 gün içinde infaz hâkimliğine itiraz edebilir. İtiraz edilmezse eşya gönderene veya hükümlünün göstereceği kişiye iade edilir, istenirse ilk ziyaret gününde yakınına verilmek üzere emanette tutulur (Yönetmelik md. 107).",
+                "Nakilde yeni kurumda bulundurulamayan eşyalar tutanakla ailesine iade edilmek üzere saklanır. Hükümlünün kendi isteğiyle yapılan nakilde kitap, kıyafet ve kişisel eşyalar 50 kg'a kadar kurum gideriyle gönderilir; fazlası hükümlüye aittir.",
+                "Açık cezaevine geçiş, koşullu salıverilme veya denetimli serbestlikte eşya kartındaki kayıtlar kontrol edilir; eksik eşya iyi hâl değerlendirmesini olumsuz etkileyebilir. Eşyaları düşüm yaptırmadan başkasına vermemek gerekir."
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "title": "Ceza İnfaz Kurumlarında Bulundurulabilecek Eşya ve Maddeler Hakkında Yönetmelik md. 7, 17 (31.01.2023 değişiklikleriyle)",
+              "url": "https://rayp.adalet.gov.tr/resimler/633/dosya/emanet-esya-yonetmeligi21-03-20232-38-pm.pdf"
+            },
+            {
+              "title": "Ümraniye T Tipi CİK – Emanet eşya işlemleri",
+              "url": "https://umraniyetcik.adalet.gov.tr/emanet-esya-islemleri"
+            },
+            {
+              "title": "Rize L Tipi CİK – Emanet eşya (eşya çıkışı ve eşya kartı düşümü)",
+              "url": "https://rizelcik.adalet.gov.tr/emanet-esya"
+            }
+          ],
+          "updatedAt": "30.10.2026"
         }
       ]
     },
