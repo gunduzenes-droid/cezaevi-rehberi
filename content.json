@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 8,
   "updatedAt": "30.10.2026",
   "disclaimer": "Cezaevi Rehberi, cezaevinde yakını bulunan kişilere ve avukatlara yol göstermek amacıyla hazırlanmış bağımsız bir bilgilendirme uygulamasıdır. Uygulamadaki bilgiler hukuki danışmanlık, hukuki görüş veya avukatlık hizmeti değildir ve avukat–müvekkil ilişkisi kurmaz. İçerik; yürürlükteki mevzuat ile ceza infaz kurumlarının resmî duyurularından derlenmiştir, ancak kurum uygulamaları ve mevzuat sık değişebilir. İşlem yapmadan önce ilgili kurumun resmî internet sitesinden veya kurumdan teyit alınız. İnfaz hesaplaması tahmini sonuç verir; kesin tarihler Cumhuriyet başsavcılığınca düzenlenen müddetnamede yer alır. Uygulamanın kullanımından doğabilecek zararlardan geliştirici sorumlu tutulamaz. Somut durumunuza ilişkin bilgileri mutlaka bir avukata danışarak teyit ediniz. Kurucu: Av. Enes Gündüz. © 2026 Av. Enes Gündüz, tüm hakları saklıdır.",
   "categories": [
@@ -232,6 +232,56 @@
             }
           ],
           "updatedAt": "24.10.2026"
+        },
+        {
+          "id": "kantin",
+          "title": "Kantin ve haftalık harcama limiti",
+          "summary": "İçerideki kişi parayı nasıl harcar, ne kadar harcayabilir, kantinden neler alınır?",
+          "audience": "hepsi",
+          "sections": [
+            {
+              "heading": "Haftalık harcama limiti",
+              "bullets": [
+                "Tutuklu ve hükümlüler kantinden haftalık harcama limiti kadar alışveriş yapabilir. Limit Adalet Bakanlığı genelgesiyle belirlenir; 1 Ocak 2026'dan itibaren haftalık 5.000 TL'ye yükseltilmiştir (önceki limit 3.500 TL).",
+                "Hesaptaki paranın bir üst sınırı yoktur; yatırılan para silinmez, harcanmayan bakiye hesapta kalır ve tahliyede iade edilir.",
+                "Limite genellikle dâhil edilmeyen giderler: telefon ve haberleşme giderleri, sağlık ve eğitim giderleri, mahkeme harçları ve tazminat ödemeleri ile kantinden alınan buzdolabı, semaver, vantilatör, televizyon gibi dayanıklı eşya.",
+                "Disiplin cezası olarak harcama limiti geçici süreyle kısıtlanabilir."
+              ],
+              "tip": "Limit değişebilir. Güncel tutarı kurumun emanet para bürosundan öğrenin."
+            },
+            {
+              "heading": "Kantinden neler alınır?",
+              "bullets": [
+                "Gıda ve içecek, kişisel temizlik ve kozmetik ürünleri, kırtasiye, telefon kartı.",
+                "İç çamaşırı, çorap, atlet, terlik, havlu, bornoz, nevresim ve battaniye gibi ürünler dışarıdan kabul edilmez; kantinden alınır.",
+                "Dışarıdan yiyecek ve içecek getirilemez, kargo ile de gönderilemez.",
+                "Alışveriş, kurumun kantin yazılımı üzerinden yapılır ve tutar kişinin hesabından düşülür."
+              ]
+            },
+            {
+              "heading": "Dış kantin ve eczane",
+              "body": "Kantinde bulunmayan bazı ürünler ve eczane ürünleri kurumun dış kantin (dış alım) hizmetiyle alınabilir; bedeli kişinin hesabından ödenir. Vitamin, gıda takviyesi, bal, zeytinyağı gibi ürünler ve reçeteli ilaçlar ziyaretçi veya kargo yoluyla kabul edilmez; dış kantin aracılığıyla eczaneden temin edilir. Reçetede 'ziyaretçi getirecek' yazması da bu kuralı değiştirmez (Rize L Tipi örneği)."
+            },
+            {
+              "heading": "Para nasıl yatırılır?",
+              "body": "Para ziyaret sırasında elden verilemez; VakıfBank ATM'lerinden veya havale ile kişinin hesabına yatırılır. Ayrıntılar için 'Bankamatikten (ATM) para nasıl yatırılır?' konusuna bakın. Yurt dışından gönderimde kurumun bildirdiği döviz hesabı ve açıklamaya ad-soyad, baba adı ve kimlik numarası yazılır."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Sözcü – Haftalık harcama limiti 1 Ocak 2026'dan itibaren 5.000 TL (27.12.2025)",
+              "url": "https://www.sozcu.com.tr/mahkumun-haftalik-harcama-limiti-5-bin-liraya-yukseltildi-p278811"
+            },
+            {
+              "title": "Erzincan T Tipi CİK – Emanet para bilgilendirmesi",
+              "url": "https://erzincantcik.adalet.gov.tr/emanet-para_112856"
+            },
+            {
+              "title": "Rize L Tipi CİK – Emanet eşya, dış kantin ve sağlık malzemeleri",
+              "url": "https://rizelcik.adalet.gov.tr/emanet-esya"
+            }
+          ],
+          "updatedAt": "30.10.2026"
         }
       ]
     },
@@ -521,6 +571,52 @@
       "subtitle": "Koşullu salıverilme, denetimli serbestlik, açık cezaevi",
       "topics": [
         {
+          "id": "teslim-olma",
+          "title": "Ceza kesinleşti: teslim olma ve infazın ertelenmesi",
+          "summary": "Çağrı kâğıdı gelince ne yapılır, ne kadar süre var, ertelenme mümkün mü?",
+          "audience": "hepsi",
+          "sections": [
+            {
+              "heading": "Çağrı kâğıdı ve yakalama emri",
+              "bullets": [
+                "Kesinleşen hapis cezası Cumhuriyet başsavcılığına gönderilir; başsavcılık, cezanın süresine göre çağrı kâğıdı veya yakalama emri çıkarır (5275 md. 20).",
+                "Çağrı kâğıdı tebliğ edilen hükümlü 10 gün içinde başsavcılığa gelmezse, kaçarsa veya kaçacağına dair şüphe uyandırırsa yakalama emri çıkarılır (md. 19/1).",
+                "Kasten işlenen suçlarda 3 yıldan, taksirle işlenen suçlarda 5 yıldan fazla hapis cezası için çağrı kâğıdı gönderilmez; doğrudan yakalama emri çıkarılır (md. 19/2).",
+                "Çağrı kâğıdı, hükümde gösterilen adrese tebliğ edilir. Adres değişikliğini mahkemeye veya başsavcılığa bildirmek hükümlünün yükümlülüğüdür; bildirilmezse eski adrese yapılan tebligat geçerlidir (md. 20/3)."
+              ]
+            },
+            {
+              "heading": "Hükümlünün istemiyle infazın ertelenmesi (md. 17)",
+              "bullets": [
+                "Kasten işlenen suçlarda 3 yıl, taksirle işlenen suçlarda 5 yıl veya daha az süreli hapis cezalarının infazı, çağrı üzerine gelen hükümlünün istemiyle Cumhuriyet başsavcılığınca ertelenebilir.",
+                "Erteleme her defasında bir yılı geçmemek üzere en fazla iki kez uygulanabilir; güvence gösterilmesi şartına bağlanabilir.",
+                "Yükseköğrenimin bitirilmesi, ana, baba, eş veya çocuğun ölümü, ailenin ticari veya tarımsal faaliyetinin yürütülememesi, eş veya çocuğun bakıma muhtaç olması, hükümlünün sürekli tedavi gerektiren hastalığı gibi zorunlu ve çok ivedi hâllerde, infaza başlanmış olsa bile bir yılı geçmeyen sürelerle en fazla iki kez ara verilebilir.",
+                "Terör suçları, örgüt faaliyeti çerçevesinde işlenen suçlar ve cinsel dokunulmazlığa karşı suçlardan mahkûm olanlar ile mükerrirlere özgü infaz rejimine tabi olanlar bu imkândan yararlanamaz.",
+                "Erteleme süresinde kasıtlı bir suçtan kamu davası açılırsa erteleme kaldırılır ve ceza derhâl infaz edilir."
+              ]
+            },
+            {
+              "heading": "Diğer erteleme hâlleri",
+              "bullets": [
+                "Gebe kadınlar ile doğumdan itibaren 1 yıl 6 ay geçmemiş kadınlar hakkında infaz geri bırakılır (md. 16/4).",
+                "Ağır hastalık veya engellilik nedeniyle cezaevinde hayatını yalnız sürdüremeyecek kişiler için Adli Tıp raporuyla erteleme mümkündür ('Sağlık' konusuna bakın)."
+              ],
+              "tip": "Teslim olmadan önce bir avukatla müddetnameyi ve erteleme imkânını değerlendirin. Başsavcılığın erteleme talebini reddetmesine karşı 15 gün içinde infaz hâkimliğine şikâyet yoluna gidilebilir (4675 md. 5)."
+            }
+          ],
+          "sources": [
+            {
+              "title": "5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
+            },
+            {
+              "title": "4675 sayılı İnfaz Hâkimliği Kanunu md. 4-6",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4675&MevzuatTur=1&MevzuatTertip=5"
+            }
+          ],
+          "updatedAt": "30.10.2026"
+        },
+        {
           "id": "kosullu-saliverilme",
           "title": "Koşullu salıverilme nedir? Oranlar nelerdir?",
           "summary": "Cezanın belirli bir kısmı iyi hâlle çekildiğinde tahliye mümkün olur.",
@@ -699,6 +795,335 @@
             }
           ],
           "updatedAt": "24.10.2026"
+        },
+        {
+          "id": "nakil",
+          "title": "Başka cezaevine nakil",
+          "summary": "Yakınınız ailesine yakın bir kuruma nasıl nakledilir, şartlar nelerdir?",
+          "audience": "hepsi",
+          "sections": [
+            {
+              "heading": "Nakil nedenleri",
+              "body": "Hükümlüler kendi istekleri, toplu sevk, disiplin, asayiş ve güvenlik, hastalık, eğitim-öğretim, suç ve yargılama yeri nedenleriyle başka kuruma nakledilebilir (5275 md. 53). Kurumun kapasitesinin aşılması gibi zorunlu nedenlerle de Bakanlık nakil yapabilir (md. 56)."
+            },
+            {
+              "heading": "Kendi isteğiyle nakil şartları (md. 54)",
+              "bullets": [
+                "Gitmek istediği, durumuna uygun en az üç kurumu belirten bir dilekçe vermesi.",
+                "Nakil giderlerini peşin ödemeyi kabul etmesi. Çocuk hükümlüler ile maddi durumunun yetersiz olduğunu belgeleyenler bu şarttan muaftır.",
+                "Cezaevinde kalması gereken sürenin üç aydan fazla olması.",
+                "İyi hâlli olması; disiplin cezası almamış veya cezasının kaldırılmış olması.",
+                "İstenen kurumda yer, kapasite ve sınıfın uygun olması ve kurumun tutukevi olmaması; kurumun mahkûmiyet süresine uygun olması.",
+                "Daha önce disiplin nedeniyle ayrılmak zorunda kaldığı kurumu istememesi."
+              ],
+              "warning": "Kendi isteğiyle nakledilen hükümlü, eğitim-öğretim veya hastalık nedeniyle nakil hariç, gittiği kurumda en az bir yıl kalmak zorundadır (çocuklarda altı ay)."
+            },
+            {
+              "heading": "Nasıl başvurulur?",
+              "steps": [
+                "Yakınınız, gitmek istediği en az üç kurumu sıralayan ve gerekçesini (ailenin ikamet yeri, ziyaret güçlüğü, yaşlı veya hasta aile bireyleri, çocukların durumu vb.) açıklayan dilekçeyi kurum idaresine verir.",
+                "Dilekçe, kurum aracılığıyla Adalet Bakanlığı Ceza ve Tevkifevleri Genel Müdürlüğüne iletilir. Ailenin ikametgâh belgesi, sağlık raporları gibi destekleyici belgeleri eklemek faydalıdır.",
+                "Karar Bakanlıkça verilir; sonuç kuruma bildirilir. Sağlık nedenli talepler öncelikli değerlendirilir.",
+                "Tutuklu olanların nakil talepleri uygulamada soruşturmayı yürüten savcılığın veya davayı gören mahkemenin durumu dikkate alınarak değerlendirilir; avukatınızla birlikte hareket edin."
+              ]
+            },
+            {
+              "heading": "Bilinmesi gerekenler",
+              "bullets": [
+                "Kanunda başvurunun ne kadar sürede sonuçlanacağına dair bir süre yoktur.",
+                "Nakilde kişisel eşyalar, kitap ve kıyafetler 50 kg'a kadar kurum gideriyle gönderilir; fazlasının ücreti hükümlüye aittir. Hesaptaki para da yeni kuruma aktarılır.",
+                "Yakınının kurumu değiştiğinde aile bilgilendirilir. Yeni kurumda telefon için belgelerin yeniden verilmesi gerekebilir.",
+                "Nakil talebinin reddine karşı başvuru yolu için avukatınıza danışın; Kamu Denetçiliği Kurumu (Ombudsman) ve Anayasa Mahkemesi bu konuda aile hayatına saygı hakkı yönünden kararlar vermiştir."
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "title": "5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
+            },
+            {
+              "title": "Ceza İnfaz Kurumlarında Bulundurulabilecek Eşya ve Maddeler Hakkında Yönetmelik md. 7, 17 (31.01.2023 değişiklikleriyle)",
+              "url": "https://rayp.adalet.gov.tr/resimler/633/dosya/emanet-esya-yonetmeligi21-03-20232-38-pm.pdf"
+            },
+            {
+              "title": "CİSST – Nakil bilgi notu (167 sayılı Genelge)",
+              "url": "https://cisst.org.tr/nakil/"
+            }
+          ],
+          "updatedAt": "30.10.2026"
+        },
+        {
+          "id": "tahliye",
+          "title": "Tahliye günü",
+          "summary": "Tahliye nasıl olur, aile ne yapmalı, denetimli serbestlik müdürlüğüne ne zaman gidilir?",
+          "audience": "hepsi",
+          "sections": [
+            {
+              "heading": "Tahliye nasıl gerçekleşir?",
+              "bullets": [
+                "Kişi, yetkili makamın (mahkeme, infaz hâkimliği veya Cumhuriyet başsavcılığı) yazılı tahliye emri kuruma ulaştığında salıverilir (Yönetmelik md. 129).",
+                "Tutukluluğu kaldırılan kişi için mahkemenin tahliye yazısı (müzekkeresi) kuruma UYAP üzerinden gönderilir; kurumun işlemleri tamamlaması birkaç saat sürebilir.",
+                "Koşullu salıverilmeye infaz hâkimi, kurumun hazırladığı rapor üzerine dosya üzerinden karar verir (5275 md. 107/11).",
+                "Kurum giriş-çıkış işlemlerini bitirince kişi kurum kapısından (nizamiye) çıkar. Tahliyenin yaklaşık saatini kurumu arayarak veya avukatınızdan öğrenebilirsiniz."
+              ]
+            },
+            {
+              "heading": "Emanetteki para ve eşya",
+              "bullets": [
+                "Kişiye ait kıyafet ve diğer eşya, emanetteki değerli eşyalar ve kimliği tahliyede kendisine teslim edilir (Yönetmelik md. 131).",
+                "Hesaptaki para bankadan çekilerek makbuz karşılığı iade edilir. Kart sistemi olan kurumlarda bakiye kişinin kartında veya hesabında kalır; harcanmayan para silinmez.",
+                "Kurumda aldığı diploma, sertifika ve diğer belgeler de tahliyede verilir.",
+                "Kişinin dışarı çıkarken giyeceği kıyafetin emanette veya üzerinde bulunduğundan emin olun; mevsime uygun bir kıyafet getirmek iyi olur."
+              ]
+            },
+            {
+              "heading": "Denetimli serbestlikle çıkanlar için kritik süre",
+              "body": "Denetimli serbestlik tedbiriyle cezaevinden ayrılan hükümlü, talebinde belirttiği denetimli serbestlik müdürlüğüne 5 gün içinde başvurmak zorundadır (5275 md. 105/A-6-a).",
+              "warning": "Başvuru süresinin bitiminden itibaren 2 gün içinde de müdürlüğe gidilmezse hükümlü hakkında firar suçu (TCK md. 292) hükümleri uygulanır ve cezası açık cezaevinde çektirilir (md. 105/A-8). Tahliye günü müdürlüğün adresini ve çalışma saatlerini öğrenin."
+            },
+            {
+              "heading": "Koşullu salıverilenler için",
+              "bullets": [
+                "Denetim süresi, kurumda geçirilmesi gereken süre kadardır; süreli cezalarda hak ederek tahliye tarihini geçemez (md. 107/6).",
+                "İnfaz hâkimi denetim süresinde iki yılı geçmemek üzere denetimli serbestlik yükümlülükleri (belirli bölgede gözetim, belirli yerlere gitmeme, programlara katılma) belirleyebilir (md. 107/9). Tahliye evrakında yükümlülük varsa denetimli serbestlik müdürlüğüne başvuru tarihini mutlaka not edin.",
+                "Denetim süresinde kasıtlı bir suç işlenmesi veya yükümlülüklere uyarıya rağmen uyulmaması koşullu salıverilmenin geri alınmasına yol açar (md. 107/12)."
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "title": "5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
+            },
+            {
+              "title": "Ceza İnfaz Kurumlarının Yönetimi ile Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Yönetmelik (RG 29.03.2020, 31083)",
+              "url": "https://www.resmigazete.gov.tr/eskiler/2020/03/20200329-9.pdf"
+            },
+            {
+              "title": "Isparta E Tipi CİK – Hükümlü/tutuklular için kılavuz",
+              "url": "https://ispartaecik.adalet.gov.tr/hukumlututuklular-icin-kilavuz"
+            }
+          ],
+          "updatedAt": "30.10.2026"
+        }
+      ]
+    },
+    {
+      "id": "saglik-yasam",
+      "title": "Sağlık ve Günlük Yaşam",
+      "icon": "cross.case",
+      "subtitle": "Sağlık, eğitim, aile olayları, seçimler ve yabancılar",
+      "topics": [
+        {
+          "id": "saglik",
+          "title": "Sağlık: ilaç, hastane ve rapor",
+          "summary": "İçerideki yakınınız hastaysa ne olur, ilaçlarını nasıl alır, hastaneye nasıl sevk edilir?",
+          "audience": "hepsi",
+          "sections": [
+            {
+              "heading": "Muayene ve tedavi hakkı",
+              "bullets": [
+                "Tutuklu ve hükümlüler muayene ve tedavi hakkına sahiptir. Önce kurum revirinde kurum hekimi bakar; gerekirse Devlet veya üniversite hastanelerinin mahkûm koğuşlarında tedavi edilir (5275 md. 71, 78).",
+                "Hastaneye sevk kurum hekiminin kararıyla yapılır. Hastaneye yatması gereken kişi, en yakın tam teşekküllü Devlet veya üniversite hastanesinin hükümlü koğuşuna yatırılır (md. 57).",
+                "Acil durumlar dışında özel hastanede tedavi yapılamaz (md. 57/4).",
+                "Tüm muayene ve tedavi sonuçları kişinin sağlık izleme kartına işlenir ve dosyasında saklanır."
+              ]
+            },
+            {
+              "heading": "İlaçlar",
+              "bullets": [
+                "Kişinin dışarıda kullandığı ilaçları içeride kullanıp kullanmayacağına kurum hekimi karar verir.",
+                "Aileler ilaç getiremez veya kargoyla gönderemez. İlaç, kurum hekiminin yazdığı reçeteyle kurum aracılığıyla temin edilir.",
+                "Korse, bandaj, varis çorabı, ortopedik yastık, işitme cihazı gibi tıbbi malzemeler ancak hekim raporuyla ve güvenlik açısından sakınca yoksa kabul edilir."
+              ]
+            },
+            {
+              "heading": "Aile olarak ne yapabilirsiniz?",
+              "steps": [
+                "Yakınınızın dışarıdaki raporlarını, epikrizlerini ve kullandığı ilaçların listesini avukatınız aracılığıyla veya dilekçeyle kurum müdürlüğüne iletin; kurum hekimine ulaştırılmasını isteyin.",
+                "Tedavisi aksıyorsa yakınınız kurum müdürlüğüne yazılı başvurarak muayene veya hastaneye sevk isteyebilir.",
+                "Talep yerine getirilmezse işlemin öğrenildiği tarihten itibaren 15 gün içinde infaz hâkimliğine şikâyet edilebilir. Şikâyeti eş, anne, baba, kardeş, çocuk veya avukat da yapabilir (4675 md. 5).",
+                "Ağır durumlarda tutuklular için avukat aracılığıyla mahkemeye tahliye talebi, hükümlüler için cezanın ertelenmesi başvurusu değerlendirilebilir."
+              ]
+            },
+            {
+              "heading": "Ağır hastalıkta cezanın ertelenmesi",
+              "bullets": [
+                "Ağır hastalık veya engellilik nedeniyle cezaevi koşullarında hayatını yalnız sürdüremeyen ve toplum güvenliği bakımından ağır ve somut tehlike oluşturmayacağı değerlendirilen hükümlünün cezasının infazı iyileşinceye kadar geri bırakılabilir (5275 md. 16/6).",
+                "Cezanın infazı mahkûmun hayatı için kesin bir tehlike oluşturuyorsa da infaz geri bırakılır (md. 16/2).",
+                "Karar için Adli Tıp Kurumu raporu veya Bakanlığın belirlediği tam teşekküllü hastane sağlık kurulunun düzenleyip Adli Tıp Kurumunun onayladığı rapor gerekir. Kararı infazın yapıldığı yer Cumhuriyet başsavcılığı verir (md. 16/3).",
+                "Gebe kadınlar ile doğumdan itibaren 1 yıl 6 ay geçmemiş kadınlar hakkında hapis cezasının infazı geri bırakılır (md. 16/4).",
+                "Ağır hastalık, engellilik veya yaşlılık nedeniyle hayatını yalnız sürdüremeyen hükümlüler, koşullu salıverilmeye 3 yıl veya daha az kaldığında denetimli serbestlikten yararlanabilir (md. 105/A-3)."
+              ],
+              "warning": "Erteleme ve denetimli serbestlik başvuruları dosyaya özgü değerlendirme gerektirir; bir avukatla birlikte hareket edin."
+            }
+          ],
+          "sources": [
+            {
+              "title": "5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
+            },
+            {
+              "title": "4675 sayılı İnfaz Hâkimliği Kanunu md. 4-6",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4675&MevzuatTur=1&MevzuatTertip=5"
+            },
+            {
+              "title": "Rize L Tipi CİK – Emanet eşya, dış kantin ve sağlık malzemeleri",
+              "url": "https://rizelcik.adalet.gov.tr/emanet-esya"
+            },
+            {
+              "title": "Isparta E Tipi CİK – Hükümlü/tutuklular için kılavuz",
+              "url": "https://ispartaecik.adalet.gov.tr/hukumlututuklular-icin-kilavuz"
+            }
+          ],
+          "updatedAt": "30.10.2026"
+        },
+        {
+          "id": "aile-olaylari",
+          "title": "Cenaze, hasta ziyareti ve evlilik",
+          "summary": "Yakını ölen veya ağır hasta olan tutuklu ve hükümlü izin alabilir mi; cezaevinde evlenilebilir mi?",
+          "audience": "hepsi",
+          "sections": [
+            {
+              "heading": "Cenazeye katılma",
+              "bullets": [
+                "İkinci derece dâhil kan veya kayın hısımlarından birinin ya da eşinin ölümünde, tehlikeli olmayan hükümlüye dış güvenlik görevlisi refakatinde, yol hariç 2 güne kadar cenazeye katılma izni verilebilir. Talep üzerine Cumhuriyet başsavcısı onaylar (5275 md. 94/2-a).",
+                "Aynı izin, soruşturmanın selameti ve güvenlik bakımından sakınca yoksa tutuklulara da kurum en üst amirinin önerisi ve başsavcılığın onayıyla verilebilir (md. 116/2).",
+                "Bu izin, ağırlaştırılmış müebbet hapis cezası alanlar hariç, yüksek güvenlikli kurumdaki hükümlülere de verilebilir; ancak yurt dışına çıkmayı gerektiren hâllerde verilmez."
+              ]
+            },
+            {
+              "heading": "Ağır hasta yakını ziyaret",
+              "bullets": [
+                "Ana, baba, eş, kardeş, çocuk ile eşin anne veya babasının yaşamsal tehlike oluşturan ağır hastalığı sağlık kurulu raporuyla belgelenirse, her biri için toplam iki defaya mahsus olmak üzere yol hariç 1 güne kadar refakatli hasta ziyareti izni verilebilir (md. 94/2-b, tutuklular için md. 116/3).",
+                "Gece konaklama gerekirse kalınacak yere gidilen yerin valisi karar verir."
+              ]
+            },
+            {
+              "heading": "Mazeret izni (hükümlüler)",
+              "body": "Hükümlülük süresinin onda birini iyi hâlle geçirmiş hükümlüye; ana, baba, eş, kardeş veya çocuğunun ölümü, yaşamsal tehlike oluşturan ağır hastalığı ya da deprem, sel, yangın gibi felaketlerden zarar görmesi hâlinde yol hariç 10 güne kadar mazeret izni verilebilir (md. 94/1). Ölüm hâlinde kurum en üst amirinin önerisi ve başsavcılığın onayı, hastalık ve felaket hâllerinde ayrıca Adalet Bakanlığının onayı gerekir. Yüksek güvenlikli kurumdakiler mazeret izninden yararlanamaz (md. 93)."
+            },
+            {
+              "heading": "Aile ne yapmalı?",
+              "steps": [
+                "Ölüm belgesini veya sağlık kurulu raporunu hemen alın.",
+                "Kuruma telefonla haber verin; belgeyi avukat aracılığıyla veya kurumun e-posta ya da faksına iletin.",
+                "Yakınınız kurum idaresine dilekçe vererek izin talep eder. Süre kısa olduğundan avukatınız başsavcılık nezdinde takip edebilir.",
+                "Yakınlarının ölümü veya ağır hastalığında kişi kurum telefonundan derhâl görüştürülür ve bu görüşme haftalık hakkından sayılmaz."
+              ]
+            },
+            {
+              "heading": "Cezaevinde evlilik",
+              "body": "Tutuklu veya hükümlü olmak evlenmeye engel değildir. Uygulamada nikâh, belediye evlendirme memurunun kuruma gelmesiyle kurumda kıyılabilmektedir. Açık cezaevinde bulunanlar izin dönemlerinde de evlenebilir. Başvuru ve belgeler için kurumun sosyal servisine ve ikamet edilen yerin belediye evlendirme dairesine danışın.",
+              "tip": "Evlilik işlemlerinin cezaevindeki yürütülüşü kurumdan kuruma değişir; kurum idaresinden güncel usulü öğrenin."
+            }
+          ],
+          "sources": [
+            {
+              "title": "5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
+            }
+          ],
+          "updatedAt": "30.10.2026"
+        },
+        {
+          "id": "egitim",
+          "title": "Eğitim ve açık öğretim",
+          "summary": "İçerideki kişi okula devam edebilir, sınava girebilir mi; eğitimin iyi hâle etkisi.",
+          "audience": "hepsi",
+          "sections": [
+            {
+              "bullets": [
+                "Kapalı kurumlardaki tutuklu ve hükümlüler yaygın eğitimden (açık ilkokul, açık ortaokul, açık lise, açık öğretim fakültesi) yararlanabilir; açık kurumlar ve çocuk eğitimevlerinde örgün eğitime de devam edilebilir (Yönetmelik md. 89).",
+                "Okuma yazma bilmeyenler ve ilkokul mezunu olmayanlar okuma yazma kurslarına devam etmek zorundadır.",
+                "Üniversite sınavı ve açık öğretim sınavları kurumda yapılabilir; sınav ve kayıt ücretleri kişiye aittir. Ücret, kişinin hesabından ödenir ve haftalık harcama limitine dâhil edilmez.",
+                "Eğitimine devam edenlerin ders kitapları denetime tabi tutulmaz (5275 md. 62/2). Kitaplar kargoyla veya ziyaret günü teslim edilebilir.",
+                "Kurumda meslek edindirme, sanat ve spor kursları da düzenlenir.",
+                "Katılınan eğitim programları, alınan sertifikalar ve kitap okuma alışkanlığı iyi hâl değerlendirmesinde dikkate alınır (md. 89/2). Bu da açık cezaevine geçiş, denetimli serbestlik ve koşullu salıverilmeyi olumlu etkiler.",
+                "Eğitim nedeniyle nakil talebinde, nakledilen kurumda bir yıl kalma şartı aranmaz (md. 54/2)."
+              ],
+              "tip": "Kayıt dönemleri için kurumun öğretmenine veya sosyal servisine yakınınız aracılığıyla danışın; okul belgelerini (diploma, transkript) önceden kuruma iletin."
+            }
+          ],
+          "sources": [
+            {
+              "title": "5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
+            },
+            {
+              "title": "Ceza İnfaz Kurumlarının Yönetimi ile Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Yönetmelik (RG 29.03.2020, 31083)",
+              "url": "https://www.resmigazete.gov.tr/eskiler/2020/03/20200329-9.pdf"
+            },
+            {
+              "title": "Isparta E Tipi CİK – Hükümlü/tutuklular için kılavuz",
+              "url": "https://ispartaecik.adalet.gov.tr/hukumlututuklular-icin-kilavuz"
+            }
+          ],
+          "updatedAt": "30.10.2026"
+        },
+        {
+          "id": "oy",
+          "title": "Seçimlerde oy kullanma",
+          "summary": "Tutuklu ve hükümlüler oy kullanabilir mi?",
+          "audience": "hepsi",
+          "sections": [
+            {
+              "bullets": [
+                "Kasten işlenen suçlardan hükümlü olup ceza infaz kurumunda bulunanlar oy kullanamaz (Anayasa md. 67).",
+                "Tutuklular ile taksirli suçlardan hükümlü olanlar oy kullanabilir. Oy, ceza infaz kurumunda kurulan sandıkta, görevli hâkimin yönetim ve denetimi altında kullanılır.",
+                "Bunun için kişinin kesinleşmiş seçmen listesinde kayıtlı olması gerekir. Seçmen listeleri kesinleştikten sonra cezaevine girenler oy kullanamayabilir (YSK 2023/107 sayılı karar).",
+                "Belirleyici olan, seçim günü kişinin fiilen kurumda bulunup bulunmadığıdır. Cezası kesinleşip henüz cezaevine girmemiş olanlar, koşullu salıverilenler ve denetimli serbestlikle dışarıda olanlar oy kullanabilir."
+              ],
+              "tip": "Seçim öncesinde kurum idaresi seçmen bilgilerini ilçe seçim kurulundan temin eder; yakınınızın seçmen kaydını e-Devlet'ten kontrol edebilirsiniz."
+            }
+          ],
+          "sources": [
+            {
+              "title": "Türkiye Cumhuriyeti Anayasası md. 67",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2709&MevzuatTur=1&MevzuatTertip=5"
+            },
+            {
+              "title": "YSK 13.03.2023 tarih ve 2023/107 sayılı karar (ceza infaz kurumlarında oy kullanma)",
+              "url": "https://www.lexpera.com.tr/mevzuat/kurul-kararlari/yuksek-secim-kurulunun-13-03-2023-tarihli-ve-2023-107-sayili-karari-2023-107-1"
+            }
+          ],
+          "updatedAt": "30.10.2026"
+        },
+        {
+          "id": "yabanci",
+          "title": "Yabancı uyruklu tutuklu ve hükümlüler",
+          "summary": "Konsolosluk, tercüman, telefon ve ülkesine nakil.",
+          "audience": "hepsi",
+          "sections": [
+            {
+              "bullets": [
+                "Kuruma alınan yabancı uyruklu kişiye, vatandaşı olduğu devletin konsolosluğuna durumun bildirilmesini isteyip istemediği sorulur (Yönetmelik md. 56/4).",
+                "Türkçe bilmeyenler hakları ve kurum kuralları hakkında kendi dillerinde, bu mümkün değilse İngilizce, Fransızca veya Almanca bilgilendirilir (md. 56/1).",
+                "Kişiyi, vatandaşı olduğu devletin ya da o devletin çıkarlarını koruyan devletin konsolosluk görevlileri ziyaret edebilir.",
+                "Disiplin soruşturmasında Türkçe bilmeyenlerin savunması tercüman aracılığıyla alınır (5275 md. 47/4).",
+                "Telefon görüşmeleri Türkçe yapılır; kişi kendisinin veya görüşeceği kişinin Türkçe bilmediğini beyan ederse başka dilde konuşmasına izin verilir ve konuşma kayda alınır. Yurt dışındaki numaraların kime ait olduğu konsolosluktan sorulabilir; yakınlar, numaranın kendilerine ait olduğunu gösteren resmî belgenin Türkçe tercümesini kuruma verebilir.",
+                "Yabancı ziyaretçilerden ilgili Cumhuriyet başsavcılığından alınmış izin belgesi istenebilir (Marmara Kampüsü için Bakırköy Cumhuriyet Başsavcılığı).",
+                "Yurt dışından para gönderimi kurumun bildirdiği döviz hesabına yapılır; açıklamaya kişinin adı soyadı, baba adı ve yabancı kimlik numarası yazılır.",
+                "Hükümlü, Türkiye'nin taraf olduğu Hükümlülerin Nakline Dair Sözleşme veya ikili anlaşmalar kapsamında cezasının kalanını kendi ülkesinde çekmek üzere nakil talebinde bulunabilir."
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "title": "Ceza İnfaz Kurumlarının Yönetimi ile Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Yönetmelik (RG 29.03.2020, 31083)",
+              "url": "https://www.resmigazete.gov.tr/eskiler/2020/03/20200329-9.pdf"
+            },
+            {
+              "title": "5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
+            },
+            {
+              "title": "Isparta E Tipi CİK – Hükümlü/tutuklular için kılavuz",
+              "url": "https://ispartaecik.adalet.gov.tr/hukumlututuklular-icin-kilavuz"
+            }
+          ],
+          "updatedAt": "30.10.2026"
         }
       ]
     },
@@ -742,6 +1167,66 @@
             }
           ],
           "updatedAt": "24.10.2026"
+        },
+        {
+          "id": "disiplin",
+          "title": "Disiplin cezaları ve itiraz",
+          "summary": "Hangi disiplin cezaları var, koşullu salıverilmeyi nasıl etkiler, nasıl itiraz edilir?",
+          "audience": "hepsi",
+          "sections": [
+            {
+              "heading": "Disiplin cezaları (5275 md. 38)",
+              "bullets": [
+                "Kınama",
+                "Bazı etkinliklere katılmaktan alıkoyma",
+                "Ücret karşılığı çalışılan işten yoksun bırakma",
+                "Haberleşme veya iletişim araçlarından yoksun bırakma veya kısıtlama",
+                "Ziyaretçi kabulünden yoksun bırakma",
+                "Hücreye koyma (1-20 gün; açık havaya çıkma hakkı saklıdır, avukat ve resmî mercilerle görüşme engellenemez)"
+              ]
+            },
+            {
+              "heading": "Soruşturma nasıl yürür?",
+              "bullets": [
+                "Kınama ve bazı etkinliklere katılmaktan alıkoyma cezalarını kurumun en üst amiri verir. Diğer cezalarda kurum en geç 5 gün içinde soruşturma başlatır ve 15 gün içinde tamamlar (md. 47).",
+                "Savunma alınmadan disiplin cezası verilemez. Kişiye savunması için 3 gün süre verilir; savunma yazılı veya sözlü olabilir.",
+                "Disiplin kurulu en geç 3 gün içinde gerekçeli karar verir ve kararda şikâyet mercii ile süresi gösterilir."
+              ]
+            },
+            {
+              "heading": "İnfaza etkisi",
+              "bullets": [
+                "Disiplin cezalarının tamamı infaz edilip kaldırılmadıkça koşullu salıverilme işlemi yapılmaz; ancak bu gecikme hak ederek tahliye tarihini geçemez (md. 48/3-b).",
+                "Disiplin cezaları iyi hâl değerlendirmesinde dikkate alınır; açık cezaevine ayrılma, denetimli serbestlik ve nakil taleplerini olumsuz etkileyebilir (md. 89).",
+                "Cezanın kaldırılması için infazından itibaren geçmesi gereken süreler: kınama 15 gün, etkinliklerden alıkoyma 1 ay, işten yoksun bırakma, haberleşme kısıtlaması ve ziyaretçi yasağı 3 ay, hücre cezası 6 ay veya 1 yıl (md. 48/4).",
+                "Bu süreler içinde yeniden disiplin cezası gerektiren bir eylemde bulunulursa her defasında bir üst ceza uygulanır."
+              ]
+            },
+            {
+              "heading": "Nasıl itiraz edilir?",
+              "steps": [
+                "Disiplin cezasına karşı kararın öğrenildiği tarihten itibaren 15 gün, her hâlde kararın verildiği tarihten itibaren 30 gün içinde infaz hâkimliğine şikâyet edilebilir (4675 md. 5).",
+                "Şikâyet doğrudan infaz hâkimliğine veya kurum müdürlüğü aracılığıyla dilekçeyle yapılır. Eş, anne, baba, kardeş, çocuk ve avukat da başvurabilir.",
+                "İnfaz hâkimi kişinin savunmasını alarak bir hafta içinde karar verir; savunma avukatla birlikte yapılabilir (md. 6).",
+                "İnfaz hâkimliği kararına tebliğden itibaren 2 hafta içinde ağır ceza mahkemesine itiraz edilebilir."
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "title": "5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
+            },
+            {
+              "title": "4675 sayılı İnfaz Hâkimliği Kanunu md. 4-6",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4675&MevzuatTur=1&MevzuatTertip=5"
+            },
+            {
+              "title": "Isparta E Tipi CİK – Hükümlü/tutuklular için kılavuz",
+              "url": "https://ispartaecik.adalet.gov.tr/hukumlututuklular-icin-kilavuz"
+            }
+          ],
+          "updatedAt": "30.10.2026"
         }
       ]
     },
@@ -751,6 +1236,56 @@
       "icon": "briefcase",
       "subtitle": "Görüş, müddetname ve pratik notlar",
       "topics": [
+        {
+          "id": "tutukluluk",
+          "title": "Tutukluluğa itiraz, inceleme ve tazminat",
+          "summary": "Tutukluluk incelemesi, itiraz süreleri, azami tutukluluk ve haksız tutuklama tazminatı.",
+          "audience": "avukat",
+          "sections": [
+            {
+              "heading": "Tahliye talebi ve tutukluluk incelemesi",
+              "bullets": [
+                "Şüpheli veya sanık soruşturma ve kovuşturmanın her aşamasında salıverilmesini isteyebilir; bu talep hakkındaki kararlara itiraz edilebilir (CMK md. 104).",
+                "Soruşturma evresinde tutukluluğun devamı en geç 30'ar günlük sürelerle sulh ceza hâkimi tarafından, şüpheli veya müdafii dinlenerek incelenir; bu inceleme şüpheli tarafından da istenebilir (md. 108/1-2).",
+                "Kovuşturma evresinde mahkeme her oturumda, oturumlar arasında ve 30 günlük süre içinde re'sen karar verir (md. 108/3).",
+                "Tutukluluğa ilişkin kararlarda kuvvetli suç şüphesi, tutuklama nedenleri, ölçülülük ve adli kontrolün yetersizliği somut olgularla gerekçelendirilmelidir (md. 101/2)."
+              ]
+            },
+            {
+              "heading": "İtiraz süresi ve mercii",
+              "bullets": [
+                "Hâkim kararlarına itiraz, kararın öğrenildiği günden itibaren 2 hafta içinde, kararı veren mercie dilekçe verilerek veya zabıt kâtibine beyanda bulunarak yapılır (CMK md. 268/1).",
+                "Sulh ceza hâkimliğinin tutuklama ve adli kontrol kararlarına itirazı yargı çevresindeki asliye ceza mahkemesi hâkimi inceler (md. 268/3-b).",
+                "Asliye ceza mahkemesi kararlarına itirazı ağır ceza mahkemesi; ağır ceza mahkemesi kararlarına itirazı numara olarak izleyen daire inceler (md. 268/3-c)."
+              ]
+            },
+            {
+              "heading": "Azami tutukluluk süreleri (CMK md. 102)",
+              "bullets": [
+                "Ağır ceza mahkemesinin görevine girmeyen işlerde en çok 1 yıl; zorunlu hâllerde 6 ay uzatılabilir.",
+                "Ağır ceza işlerinde en çok 2 yıl; uzatmalarla toplam 3 yılı, devlet güvenliğine karşı suçlar ve terör suçlarında 5 yılı geçemez.",
+                "Soruşturma evresinde tutukluluk asliye ceza işlerinde 6 ayı, ağır ceza işlerinde 1 yılı geçemez (devlet güvenliği, terör ve toplu suçlarda 1 yıl 6 ay, gerekçeyle 6 ay uzatma).",
+                "Fiil tarihinde 15 yaşını doldurmamış çocuklarda bu süreler yarı, 18 yaşını doldurmamışlarda dörtte üç oranında uygulanır."
+              ]
+            },
+            {
+              "heading": "Haksız tutuklama tazminatı (CMK md. 141-142)",
+              "bullets": [
+                "Kanuna aykırı tutuklanan, makul sürede yargılanmayan, tutuklandıktan sonra kovuşturmaya yer olmadığına veya beraatine karar verilen ya da gözaltı ve tutuklulukta geçen süresi hükümlülük süresinden fazla olan kişiler maddi ve manevi zararlarını Devletten isteyebilir.",
+                "Tazminat, kararın kesinleştiğinin tebliğinden itibaren 3 ay ve her hâlde kesinleşmeden itibaren 1 yıl içinde istenmelidir.",
+                "Kovuşturmaya yer olmadığı, beraat veya mahsup fazlası (141/1-e, f, l) hâllerinde başvuru Tazminat Komisyonuna (6384 sayılı Kanun), diğer hâllerde kişinin oturduğu yer ağır ceza mahkemesine yapılır."
+              ],
+              "warning": "Süreler hak düşürücüdür. Kesinleşme tebliğini aldığınız tarihi not edin."
+            }
+          ],
+          "sources": [
+            {
+              "title": "5271 sayılı Ceza Muhakemesi Kanunu (md. 101-108, 141-142, 268)",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5271&MevzuatTur=1&MevzuatTertip=5"
+            }
+          ],
+          "updatedAt": "30.10.2026"
+        },
         {
           "id": "avukat-gorusu",
           "title": "Avukat görüşü kuralları",
@@ -800,6 +1335,109 @@
             }
           ],
           "updatedAt": "24.10.2026"
+        },
+        {
+          "id": "dilekce-ornekleri",
+          "title": "Dilekçe örnekleri",
+          "summary": "İnfaz hâkimliği şikâyeti, nakil, sağlık ve tahliye talepleri için örnek metinler.",
+          "audience": "avukat",
+          "sections": [
+            {
+              "heading": "Kullanmadan önce",
+              "body": "Aşağıdaki metinler genel örneklerdir; köşeli parantez içindeki yerleri doldurun ve somut olaya göre uyarlayın. Süreler: infaz hâkimliğine şikâyet öğrenmeden itibaren 15 gün, her hâlde işlemden itibaren 30 gün (4675 md. 5); hâkim kararlarına itiraz 2 hafta (CMK md. 268).",
+              "warning": "Bu örnekler hukuki danışmanlık yerine geçmez. Dilekçeyi vermeden önce bir avukata danışarak teyit ediniz."
+            },
+            {
+              "heading": "1. Disiplin cezasına karşı şikâyet",
+              "body": "[İL] İNFAZ HÂKİMLİĞİNE\nGönderilmek üzere [KURUM ADI] Müdürlüğüne\n\nŞİKÂYET EDEN: [Ad Soyad, T.C. Kimlik No, koğuş]\nŞİKÂYET KONUSU: Kurum disiplin kurulunun [tarih] tarih ve [sayı] sayılı kararıyla verilen [ceza türü] cezasının kaldırılması talebidir.\nTEBLİĞ TARİHİ: [tarih]\n\nAÇIKLAMALAR:\n1. Hakkımda [olay] gerekçesiyle disiplin soruşturması başlatılmış ve [ceza] cezası verilmiştir.\n2. [Savunma hakkının tanınmadığı / eylemin sabit olmadığı / delillerin değerlendirilmediği / cezanın ölçüsüz olduğu vb. gerekçeler].\n3. Bu ceza koşullu salıverilme ve iyi hâl değerlendirmemi doğrudan etkileyecektir.\n\nHUKUKİ NEDENLER: 5275 sayılı Kanun md. 37-48, 4675 sayılı Kanun md. 5-6\nSONUÇ VE İSTEM: Disiplin cezasının kaldırılmasına, savunmamın alınmasına karar verilmesini saygıyla arz ederim. [Tarih, imza]"
+            },
+            {
+              "heading": "2. Kurum işlemine veya infaz hesabına şikâyet",
+              "body": "[İL] İNFAZ HÂKİMLİĞİNE\n\nŞİKÂYET EDEN: [Ad Soyad, T.C. Kimlik No]\nŞİKÂYET KONUSU: [Kurumun ... işlemi / Cumhuriyet başsavcılığının ... tarihli müddetnamesi] hakkında şikâyetimin sunulmasıdır.\nÖĞRENME TARİHİ: [tarih]\n\nAÇIKLAMALAR:\n1. [İşlemin veya müddetnamenin içeriği].\n2. [Hata: örneğin gözaltı/tutukluluk süresinin mahsup edilmemesi, suç tarihine rağmen geçici madde uygulanmaması, koşullu salıverilme oranının hatalı uygulanması].\n3. Doğru hesaplamaya göre koşullu salıverilme tarihim [tarih] olmalıdır.\n\nHUKUKİ NEDENLER: 5275 sayılı Kanun md. [ilgili maddeler], 4675 sayılı Kanun md. 4-6\nSONUÇ VE İSTEM: İşlemin iptaline ve müddetnamenin düzeltilmesine karar verilmesini saygıyla arz ederim. [Tarih, imza]"
+            },
+            {
+              "heading": "3. Kendi isteğiyle nakil talebi",
+              "body": "ADALET BAKANLIĞI CEZA VE TEVKİFEVLERİ GENEL MÜDÜRLÜĞÜNE\nGönderilmek üzere [KURUM ADI] Müdürlüğüne\n\nTALEP EDEN: [Ad Soyad, T.C. Kimlik No, koğuş]\nKONU: Ailemin ikamet ettiği yere yakın bir kuruma nakil talebimdir.\n\nAÇIKLAMALAR:\n1. [Tarih]'den bu yana kurumunuzda hükümlü olarak bulunmaktayım. Cezaevinde kalmam gereken süre üç aydan fazladır; disiplin cezam yoktur.\n2. Ailem [il/ilçe]'de ikamet etmektedir. [Yaşlı/hasta anne-baba, küçük çocuklar, ulaşım ve maddi güçlük] nedeniyle ziyaretim yapılamamaktadır.\n3. Nakil giderlerini peşin ödemeyi kabul ediyorum. [veya: Maddi durumumun yetersizliğine ilişkin belgeler ektedir.]\n\nTERCİH ETTİĞİM KURUMLAR:\n1. [Kurum adı]\n2. [Kurum adı]\n3. [Kurum adı]\n\nHUKUKİ NEDENLER: 5275 sayılı Kanun md. 53-54\nSONUÇ VE İSTEM: Yukarıda belirttiğim kurumlardan birine naklimin yapılmasını saygıyla arz ederim. [Tarih, imza]\nEKLER: İkametgâh belgesi, [sağlık raporu, nüfus kayıt örneği]"
+            },
+            {
+              "heading": "4. Muayene ve hastaneye sevk talebi",
+              "body": "[KURUM ADI] MÜDÜRLÜĞÜNE\n\nTALEP EDEN: [Ad Soyad, T.C. Kimlik No, koğuş]\nKONU: Muayene ve hastaneye sevk talebimdir.\n\nAÇIKLAMALAR:\n1. [Hastalık/şikâyet] nedeniyle [tarih]'den bu yana tedavi görmekteyim. Dışarıdaki tedavime ait raporlar ve ilaç listem ektedir.\n2. [Şikâyetlerin sürdüğü / ilacın verilmediği / kontrol randevusunun kaçırıldığı vb.].\n\nHUKUKİ NEDENLER: 5275 sayılı Kanun md. 57, 71, 78\nSONUÇ VE İSTEM: Kurum hekimince muayenemin yapılmasını ve ilgili uzmanlık dalında Devlet veya üniversite hastanesine sevkimin sağlanmasını saygıyla arz ederim. [Tarih, imza]\nEKLER: Raporlar, epikriz, ilaç listesi"
+            },
+            {
+              "heading": "5. Tutukluluğa itiraz / tahliye talebi",
+              "body": "[İL] [NÖBETÇİ/İLGİLİ] SULH CEZA HÂKİMLİĞİNE (veya [MAHKEME ADI]'NA)\n\nDOSYA NO: [Soruşturma/Esas No]\nİTİRAZ EDEN ŞÜPHELİ/SANIK: [Ad Soyad, T.C. Kimlik No]\nMÜDAFİİ: [Av. Ad Soyad]\nKONU: [Tarih] tarihli tutuklama / tutukluluğun devamı kararına itirazımız ve tahliye talebimizdir.\n\nAÇIKLAMALAR:\n1. [Kuvvetli suç şüphesini gösteren somut delil bulunmadığı].\n2. [Kaçma şüphesi veya delil karartma tehlikesi bulunmadığı: sabit ikamet, aile, iş, delillerin toplanmış olması].\n3. [Tutuklamanın ölçüsüz olduğu; adli kontrol tedbirlerinin yeterli olacağı].\n4. [Tutuklulukta geçen süre / sağlık durumu / ailevi durum].\n\nHUKUKİ NEDENLER: 5271 sayılı CMK md. 100, 101, 104, 108, 109, 267-268\nSONUÇ VE İSTEM: Tutuklama kararının kaldırılarak, gerekirse adli kontrol tedbiri uygulanmak suretiyle tahliyeye karar verilmesini saygıyla arz ederiz. [Tarih, imza]"
+            }
+          ],
+          "sources": [
+            {
+              "title": "4675 sayılı İnfaz Hâkimliği Kanunu md. 4-6",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4675&MevzuatTur=1&MevzuatTertip=5"
+            },
+            {
+              "title": "5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
+            },
+            {
+              "title": "5271 sayılı Ceza Muhakemesi Kanunu (md. 101-108, 141-142, 268)",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5271&MevzuatTur=1&MevzuatTertip=5"
+            }
+          ],
+          "updatedAt": "30.10.2026"
+        }
+      ]
+    },
+    {
+      "id": "sozluk",
+      "title": "Terimler Sözlüğü",
+      "icon": "character.book.closed",
+      "subtitle": "Sık duyulan kavramların sade açıklamaları",
+      "topics": [
+        {
+          "id": "sozluk",
+          "title": "Terimler sözlüğü",
+          "summary": "Cezaevi ve infaz sürecinde sık duyulan kavramların sade açıklamaları.",
+          "audience": "hepsi",
+          "sections": [
+            {
+              "bullets": [
+                "Tutuklu: Hakkında henüz kesinleşmiş bir mahkûmiyet olmayan, yargılama sürerken mahkeme kararıyla cezaevinde tutulan kişi.",
+                "Hükümlü: Mahkûmiyet kararı kesinleşmiş ve cezasını çeken kişi.",
+                "Kesinleşme: Karara karşı kanun yollarının (istinaf, temyiz) tükenmesi veya süresinde başvurulmaması; ceza ancak kesinleşince infaz edilir.",
+                "Müddetname: Cumhuriyet başsavcılığının düzenlediği, cezanın başlangıcı, mahsup edilen süreler, koşullu salıverilme ve hak ederek tahliye tarihlerini gösteren belge.",
+                "Mahsup: Gözaltı ve tutuklulukta geçen sürenin cezadan düşülmesi.",
+                "Koşullu salıverilme: Cezanın kanunda belirtilen kısmını (genellikle yarısı) iyi hâlle çeken hükümlünün, kalan süreyi denetim altında dışarıda geçirmek üzere salıverilmesi.",
+                "Denetimli serbestlik (105/A): Koşullu salıverilmeye belirli süre kala cezanın kalan kısmının dışarıda, denetimli serbestlik müdürlüğü gözetiminde infazı.",
+                "Hak ederek tahliye: Cezanın tamamının çekilmesiyle tahliye.",
+                "İyi hâl: Kişinin kurum kurallarına uyumu, faaliyetlere katılımı ve disiplin durumuna göre idare ve gözlem kurulunca yapılan olumlu değerlendirme.",
+                "İdare ve gözlem kurulu: Kurumda iyi hâl, açık cezaevine ayırma ve benzeri değerlendirmeleri yapan kurul.",
+                "Açık cezaevi: Firara karşı engel bulunmayan, çalışma ve izin imkânı olan ceza infaz kurumu.",
+                "Kapalı cezaevi: Dış güvenliği ve iç güvenlik görevlileri olan kurum. L tipi, T tipi, E tipi gibi türleri vardır.",
+                "Tekerrür (mükerrir): Önceki mahkûmiyet kesinleştikten sonra yeniden suç işleme; mükerrirlere özgü infaz rejimi uygulanabilir.",
+                "İçtima: Birden fazla cezanın toplanarak tek bir infaz süresi olarak hesaplanması.",
+                "İnfaz hâkimliği: Cezaevi işlemleri, disiplin cezaları ve infaz hesaplarına karşı şikâyetleri inceleyen hâkimlik.",
+                "Çağrı kâğıdı: Cezası kesinleşen kişiye, cezasını çekmek üzere başsavcılığa gelmesi için gönderilen belge.",
+                "Yakalama emri: Çağrıya uymayan veya doğrudan cezaevine alınması gereken kişi için çıkarılan emir.",
+                "Tahliye müzekkeresi: Mahkemenin kişinin salıverilmesi için kuruma gönderdiği yazı.",
+                "Emanet: Kişinin kurumda saklanan parası ve eşyası.",
+                "Açık görüş / kapalı görüş: Masa başında temaslı görüşme / cam bölmeli telefonla görüşme.",
+                "Müdafi: Şüpheli veya sanığı savunan avukat.",
+                "Adli kontrol: Tutuklama yerine uygulanabilen yurt dışı yasağı, imza yükümlülüğü, ev hapsi gibi tedbirler.",
+                "HAGB (hükmün açıklanmasının geri bırakılması): Mahkûmiyet hükmünün belirli koşullarla açıklanmaması; denetim süresi iyi geçerse dava düşer.",
+                "UYAP: Ulusal Yargı Ağı Bilişim Sistemi; dosya bilgileri avukat ve vatandaş portalından izlenebilir."
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "title": "5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5275&MevzuatTur=1&MevzuatTertip=5"
+            },
+            {
+              "title": "5271 sayılı Ceza Muhakemesi Kanunu (md. 101-108, 141-142, 268)",
+              "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5271&MevzuatTur=1&MevzuatTertip=5"
+            }
+          ],
+          "updatedAt": "30.10.2026"
         }
       ]
     }
@@ -883,11 +1521,11 @@
       "district": "Silivri",
       "address": "Semizkumlar Mah. Çanta Cad. No:162, Marmara Ceza İnfaz Kurumları Kampüsü, Silivri / İstanbul",
       "phones": [
+        "0212 726 00 30",
         "0212 726 00 32",
         "0506 600 63 17"
       ],
-      "website": "https://cte.adalet.gov.tr/Home/haritaliste",
-      "notes": "Resmî site adresi doğrulanamadı; bağlantı Adalet Bakanlığı CTE kurum listesine yönlendirir.",
+      "website": "https://marmara5lcik.adalet.gov.tr",
       "lastVerified": "24.10.2026"
     },
     {
